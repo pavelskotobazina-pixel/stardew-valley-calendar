@@ -1,0 +1,44 @@
+[
+  {
+    "id": "billboard",
+    "source": "LooseSprites/Billboard.ru-RU.png",
+    "target": "/game/ui/billboard.png",
+    "role": "главная календарная доска и сезонный экран",
+    "mode": "whole sprite, used as reference/background frame"
+  },
+  {
+    "id": "junimo-note",
+    "source": "LooseSprites/JunimoNote.ru-RU.png",
+    "target": "/game/ui/junimo-note.png",
+    "role": "узелки и комнаты общественного центра",
+    "mode": "whole sprite, cropped by CSS masks/panels"
+  },
+  {
+    "id": "letter-bg",
+    "source": "LooseSprites/letterBG.ru-RU.png",
+    "target": "/game/ui/letter-bg.png",
+    "role": "заметки дня, подсказки и журнал",
+    "mode": "tile background"
+  },
+  {
+    "id": "special-orders-board",
+    "source": "LooseSprites/SpecialOrdersBoard.png",
+    "target": "/game/ui/special-orders-board.png",
+    "role": "трекер задач, остров и перфекшен",
+    "mode": "board frame/reference"
+  },
+  {
+    "id": "cursors",
+    "source": "LooseSprites/Cursors.ru-RU.png",
+    "target": "/game/ui/cursors.png",
+    "role": "слоты, кнопки, вкладки, указатели",
+    "mode": "sprite sheet source"
+  },
+  {
+    "id": "menu-tiles",
+    "source": "Maps/MenuTiles.png",
+    "target": "/game/ui/menu-tiles.png",
+    "role": "деревянные плитки и рамки интерфейса",
+    "mode": "tile sheet source"
+  }
+]
