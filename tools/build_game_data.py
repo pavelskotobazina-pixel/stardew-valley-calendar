@@ -158,6 +158,20 @@ UI_ASSET_LEDGER = [
         "role": "деревянные плитки и рамки интерфейса",
         "mode": "tile sheet source",
     },
+    {
+        "id": "calendar-icon",
+        "source": "LooseSprites/Billboard.ru-RU.png",
+        "target": "/game/ui/calendar-icon.png",
+        "role": "чистая иконка календаря для навигации",
+        "mode": "cropped icon, not a whole UI sheet",
+    },
+    {
+        "id": "center-icon",
+        "source": "LooseSprites/BundleSprites.png",
+        "target": "/game/ui/center-icon.png",
+        "role": "чистая иконка общественного центра для навигации",
+        "mode": "cropped icon, not a whole UI sheet",
+    },
 ]
 
 TYPE_RU = {
@@ -344,6 +358,86 @@ def forage_source(tags):
         return "весенний лес и город"
     return "особые зоны"
 
+LOCATION_RU = {
+    "SeedShop": "магазин Пьера",
+    "SebastianRoom": "комната Себастьяна",
+    "ScienceHouse": "дом Робин",
+    "Beach": "пляж",
+    "Mountain": "горы",
+    "Saloon": "салун",
+    "Town": "город",
+    "Forest": "лес",
+    "BusStop": "автобусная остановка",
+    "Railroad": "железная дорога",
+    "ArchaeologyHouse": "музей",
+    "Hospital": "клиника",
+    "Desert": "пустыня",
+    "IslandSouth": "остров: юг",
+    "IslandWest": "остров: запад",
+    "IslandNorth": "остров: север",
+    "bed": "кровать",
+}
+
+def schedule_time(raw):
+    try:
+        value = int(str(raw))
+    except ValueError:
+        return str(raw)
+    value = value % 2400
+    return f"{value // 100:02d}:{value % 100:02d}"
+
+def schedule_label(key):
+    days = {
+        "Mon": "понедельник",
+        "Tue": "вторник",
+        "Wed": "среда",
+        "Thu": "четверг",
+        "Fri": "пятница",
+        "Sat": "суббота",
+        "Sun": "воскресенье",
+    }
+    seasons = {"spring": "весна", "summer": "лето", "fall": "осень", "winter": "зима"}
+    if key in days:
+        return days[key]
+    if key in seasons:
+        return seasons[key]
+    if key.startswith("rain"):
+        return "дождь"
+    if key == "GreenRain":
+        return "зелёный дождь"
+    for season, label in seasons.items():
+        if key.startswith(f"{season}_"):
+            return f"{label}, день {key.split('_', 1)[1]}"
+    if key.isdigit():
+        return f"день {key}"
+    return key.replace("_", " ")
+
+def parse_schedule_route(raw, string_tables):
+    if not raw:
+        return []
+    if raw.startswith("GOTO "):
+        return [{"time": "—", "place": f"как расписание: {raw.split(' ', 1)[1]}", "note": "переход"}]
+    rows = []
+    for segment in str(raw).split("/"):
+        segment = segment.strip()
+        if not segment:
+            continue
+        if segment.startswith("GOTO "):
+            rows.append({"time": "—", "place": f"как расписание: {segment.split(' ', 1)[1]}", "note": "переход"})
+            continue
+        if segment.startswith("NOT "):
+            rows.append({"time": "условие", "place": "альтернативный маршрут", "note": segment.split("/", 1)[0][:80]})
+            continue
+        quoted = re.findall(r'"([^"]+)"', segment)
+        note = localized_token(quoted[-1], string_tables) if quoted else ""
+        clean = re.sub(r'"[^"]+"', "", segment).strip()
+        parts = clean.split()
+        if len(parts) >= 2:
+            time = schedule_time(parts[0])
+            place = LOCATION_RU.get(parts[1], parts[1])
+            rows.append({"time": time, "place": place, "note": note})
+    return rows[:8]
+
 def build():
     clean_dir(PUBLIC)
     GENERATED.mkdir(parents=True, exist_ok=True)
@@ -353,6 +447,10 @@ def build():
         p = GAME / "Strings" / f"{name}.ru-RU.json"
         if p.exists():
             string_tables[name] = json.loads(p.read_text(encoding="utf-8-sig"))
+    schedules_strings_dir = GAME / "Strings" / "schedules"
+    if schedules_strings_dir.exists():
+        for p in schedules_strings_dir.glob("*.ru-RU.json"):
+            string_tables[p.name.replace(".ru-RU.json", "")] = json.loads(p.read_text(encoding="utf-8-sig"))
 
     raw_objects = load_json("Data/Objects.json")
     objects = {}
@@ -455,6 +553,22 @@ def build():
     if parrots.exists():
         im = Image.open(parrots).convert("RGBA")
         write_png(trim_alpha(im.crop((0, 0, 16, 24)), 0), PUBLIC / "ui" / "parrot.png")
+
+    billboard = GAME / "LooseSprites" / "Billboard.ru-RU.png"
+    if billboard.exists():
+        im = Image.open(billboard).convert("RGBA")
+        icon = im.crop((18, 182, 304, 386))
+        canvas = Image.new("RGBA", (96, 96), (0, 0, 0, 0))
+        icon.thumbnail((86, 72), Image.Resampling.NEAREST)
+        canvas.alpha_composite(icon, ((96 - icon.width) // 2, (96 - icon.height) // 2))
+        write_png(canvas, PUBLIC / "ui" / "calendar-icon.png")
+
+    junimo_icon = PUBLIC / "items" / "688.png"
+    if junimo_icon.exists():
+        icon = Image.open(junimo_icon).convert("RGBA").resize((72, 72), Image.Resampling.NEAREST)
+        canvas = Image.new("RGBA", (96, 96), (0, 0, 0, 0))
+        canvas.alpha_composite(icon, (12, 12))
+        write_png(canvas, PUBLIC / "ui" / "center-icon.png")
 
     for rel, name in [
         ("Characters/Junimo.png", "junimo.png"),
@@ -693,6 +807,14 @@ def build():
             for iid in ids[:10]:
                 if iid in objects:
                     villager_gifts.append({"taste": taste, "id": iid, "name": item_name(iid, objects), "icon": item_icon(iid)})
+        schedules = {}
+        schedule_path = GAME / "Characters" / "schedules" / f"{key}.json"
+        if schedule_path.exists():
+            raw_schedules = json.loads(schedule_path.read_text(encoding="utf-8-sig"))
+            for schedule_key, route in raw_schedules.items():
+                rows = parse_schedule_route(route, string_tables)
+                if rows:
+                    schedules[schedule_key] = {"label": schedule_label(schedule_key), "rows": rows}
         villagers.append({
             "id": key,
             "name": npc_names.get(key, key),
@@ -703,6 +825,7 @@ def build():
             "portrait": f"/game/portraits/{key}.png" if key in portraits else "",
             "sprite": f"/game/sprites/{key}.png",
             "gifts": villager_gifts,
+            "schedules": schedules,
         })
 
     cooking_raw = load_json("Data/CookingRecipes.json")
@@ -810,6 +933,45 @@ def build():
         for obj in objects.values()
         if obj.get("displayName") and obj.get("spriteIndex") is not None and obj.get("category") != -999
     ]
+
+    bundle_usage = {}
+    for bundle in bundles:
+        for item in bundle["items"]:
+            bundle_usage.setdefault(str(item["id"]), []).append({
+                "room": bundle["room"],
+                "bundle": bundle["name"],
+                "amount": item["amount"],
+            })
+
+    recipe_usage = {}
+    for kind, recipes in [("готовка", cooking), ("крафт", crafting)]:
+        for recipe in recipes:
+            for ingredient in recipe["ingredients"]:
+                if ingredient.get("category"):
+                    continue
+                recipe_usage.setdefault(str(ingredient["id"]), []).append({
+                    "kind": kind,
+                    "recipe": recipe["name"],
+                    "amount": ingredient["amount"],
+                    "icon": recipe["icon"],
+                })
+
+    gift_usage = {}
+    for villager in villagers:
+        for gift in villager["gifts"]:
+            gift_usage.setdefault(str(gift["id"]), []).append({
+                "villager": villager["name"],
+                "taste": gift["taste"],
+                "portrait": villager["portrait"],
+            })
+
+    for obj in catalog_items:
+        item_id = str(obj["id"])
+        obj["availability"] = item_lookup.get(item_id, "")
+        obj["usedInBundles"] = bundle_usage.get(item_id, [])[:12]
+        obj["usedInRecipes"] = recipe_usage.get(item_id, [])[:12]
+        obj["giftFor"] = gift_usage.get(item_id, [])[:12]
+
     catalog_items.sort(key=lambda x: (str(x["categoryName"]), str(x["displayName"])))
     data = {
         "meta": {

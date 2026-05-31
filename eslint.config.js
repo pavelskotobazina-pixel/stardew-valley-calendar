@@ -4,7 +4,7 @@ import reactHooks from "eslint-plugin-react-hooks";
 import tseslint from "typescript-eslint";
 
 export default [
-  { ignores: ["dist", "public/game", "src/generated"] },
+  { ignores: ["dist", "github-pages-ready", "release", "public/game", "src/generated"] },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {

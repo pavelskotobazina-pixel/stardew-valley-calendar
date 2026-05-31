@@ -1539,7 +1539,11 @@ export const GAME_DATA = {
         "elvish_item"
       ],
       "icon": "/game/items/104.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "100",
@@ -1558,7 +1562,11 @@ export const GAME_DATA = {
         "dye_strong"
       ],
       "icon": "/game/items/100.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "118",
@@ -1575,7 +1583,11 @@ export const GAME_DATA = {
         "dye_strong"
       ],
       "icon": "/game/items/118.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "116",
@@ -1593,7 +1605,11 @@ export const GAME_DATA = {
         "marine_item"
       ],
       "icon": "/game/items/116.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "106",
@@ -1611,7 +1627,11 @@ export const GAME_DATA = {
         "noble_item"
       ],
       "icon": "/game/items/106.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "580",
@@ -1629,7 +1649,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/580.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "579",
@@ -1647,7 +1671,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/579.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "115",
@@ -1665,7 +1693,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/115.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "584",
@@ -1683,7 +1715,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/584.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "120",
@@ -1701,7 +1737,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/120.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "581",
@@ -1719,7 +1759,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/581.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "583",
@@ -1737,7 +1781,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/583.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "114",
@@ -1751,7 +1799,18 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/114.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Древние семена",
+          "amount": 1,
+          "icon": "/game/items/499.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "123",
@@ -1770,7 +1829,11 @@ export const GAME_DATA = {
         "instrument_item"
       ],
       "icon": "/game/items/123.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "109",
@@ -1788,7 +1851,17 @@ export const GAME_DATA = {
         "dye_strong"
       ],
       "icon": "/game/items/109.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Abigail.png"
+        }
+      ]
     },
     {
       "id": "103",
@@ -1807,7 +1880,11 @@ export const GAME_DATA = {
         "toy_item"
       ],
       "icon": "/game/items/103.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "124",
@@ -1825,7 +1902,11 @@ export const GAME_DATA = {
         "golden_relic_item"
       ],
       "icon": "/game/items/124.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "125",
@@ -1843,7 +1924,11 @@ export const GAME_DATA = {
         "golden_relic_item"
       ],
       "icon": "/game/items/125.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "105",
@@ -1861,7 +1946,11 @@ export const GAME_DATA = {
         "dye_strong"
       ],
       "icon": "/game/items/105.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "119",
@@ -1881,7 +1970,17 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/119.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Abigail.png"
+        }
+      ]
     },
     {
       "id": "101",
@@ -1899,7 +1998,11 @@ export const GAME_DATA = {
         "hunting_item"
       ],
       "icon": "/game/items/101.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "587",
@@ -1919,7 +2022,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/587.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "588",
@@ -1937,7 +2044,11 @@ export const GAME_DATA = {
         "fossil_item"
       ],
       "icon": "/game/items/588.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "586",
@@ -1957,7 +2068,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/586.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "108",
@@ -1974,7 +2089,11 @@ export const GAME_DATA = {
         "dye_strong"
       ],
       "icon": "/game/items/108.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "110",
@@ -1992,7 +2111,11 @@ export const GAME_DATA = {
         "dye_strong"
       ],
       "icon": "/game/items/110.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "112",
@@ -2010,7 +2133,11 @@ export const GAME_DATA = {
         "machine_item"
       ],
       "icon": "/game/items/112.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "111",
@@ -2028,7 +2155,11 @@ export const GAME_DATA = {
         "dye_strong"
       ],
       "icon": "/game/items/111.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "582",
@@ -2046,7 +2177,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/582.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "96",
@@ -2064,7 +2199,17 @@ export const GAME_DATA = {
         "scroll_item"
       ],
       "icon": "/game/items/96.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "97",
@@ -2082,7 +2227,17 @@ export const GAME_DATA = {
         "scroll_item"
       ],
       "icon": "/game/items/97.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "98",
@@ -2100,7 +2255,17 @@ export const GAME_DATA = {
         "scroll_item"
       ],
       "icon": "/game/items/98.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "99",
@@ -2118,7 +2283,17 @@ export const GAME_DATA = {
         "scroll_item"
       ],
       "icon": "/game/items/99.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "113",
@@ -2137,7 +2312,11 @@ export const GAME_DATA = {
         "statue_item"
       ],
       "icon": "/game/items/113.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "126",
@@ -2156,7 +2335,11 @@ export const GAME_DATA = {
         "strange_doll_1"
       ],
       "icon": "/game/items/126.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "127",
@@ -2175,7 +2358,11 @@ export const GAME_DATA = {
         "strange_doll_2"
       ],
       "icon": "/game/items/127.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "589",
@@ -2193,7 +2380,11 @@ export const GAME_DATA = {
         "fossil_item"
       ],
       "icon": "/game/items/589.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "122",
@@ -2212,7 +2403,24 @@ export const GAME_DATA = {
         "machine_item"
       ],
       "icon": "/game/items/122.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "FarmComputer_Name",
+          "amount": 1,
+          "icon": "/game/craftables/239.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "585",
@@ -2230,7 +2438,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/585.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "121",
@@ -2248,7 +2460,17 @@ export const GAME_DATA = {
         "dye_strong"
       ],
       "icon": "/game/items/121.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "107",
@@ -2267,7 +2489,22 @@ export const GAME_DATA = {
         "egg_item"
       ],
       "icon": "/game/items/107.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Алекс",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Alex.png"
+        },
+        {
+          "villager": "Деметриус",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Demetrius.png"
+        }
+      ]
     },
     {
       "id": "117",
@@ -2285,7 +2522,11 @@ export const GAME_DATA = {
         "marine_item"
       ],
       "icon": "/game/items/117.png",
-      "categoryName": "Артефакты"
+      "categoryName": "Артефакты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "241",
@@ -2302,7 +2543,17 @@ export const GAME_DATA = {
         "food_party"
       ],
       "icon": "/game/items/241.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эмили",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Emily.png"
+        }
+      ]
     },
     {
       "id": "235",
@@ -2318,7 +2569,22 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/235.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Льюис",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Lewis.png"
+        }
+      ]
     },
     {
       "id": "242",
@@ -2335,7 +2601,17 @@ export const GAME_DATA = {
         "food_seafood"
       ],
       "icon": "/game/items/242.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Линус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Linus.png"
+        }
+      ]
     },
     {
       "id": "240",
@@ -2351,7 +2627,17 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/240.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Марни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Marnie.png"
+        }
+      ]
     },
     {
       "id": "239",
@@ -2368,7 +2654,22 @@ export const GAME_DATA = {
         "food_sauce"
       ],
       "icon": "/game/items/239.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эвелин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Evelyn.png"
+        },
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        }
+      ]
     },
     {
       "id": "243",
@@ -2385,7 +2686,17 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/243.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "605",
@@ -2401,7 +2712,17 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/605.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        }
+      ]
     },
     {
       "id": "231",
@@ -2419,7 +2740,27 @@ export const GAME_DATA = {
         "food_pasta"
       ],
       "icon": "/game/items/231.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Джордж",
+          "taste": "Любит",
+          "portrait": "/game/portraits/George.png"
+        },
+        {
+          "villager": "Джоди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jodi.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pam.png"
+        }
+      ]
     },
     {
       "id": "904",
@@ -2436,7 +2777,17 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/904.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Abigail.png"
+        }
+      ]
     },
     {
       "id": "730",
@@ -2454,7 +2805,11 @@ export const GAME_DATA = {
         "food_soup"
       ],
       "icon": "/game/items/730.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "211",
@@ -2471,7 +2826,24 @@ export const GAME_DATA = {
         "food_breakfast"
       ],
       "icon": "/game/items/211.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Полный завтрак",
+          "amount": 1,
+          "icon": "/game/items/201.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Джоди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jodi.png"
+        }
+      ]
     },
     {
       "id": "618",
@@ -2488,7 +2860,11 @@ export const GAME_DATA = {
         "food_pasta"
       ],
       "icon": "/game/items/618.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "279",
@@ -2502,7 +2878,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/279.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "208",
@@ -2518,7 +2898,22 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/208.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Lewis.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pam.png"
+        }
+      ]
     },
     {
       "id": "611",
@@ -2536,7 +2931,17 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/611.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Abigail.png"
+        }
+      ]
     },
     {
       "id": "205",
@@ -2552,7 +2957,17 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/205.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Джордж",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/George.png"
+        }
+      ]
     },
     {
       "id": "202",
@@ -2568,7 +2983,22 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/202.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Пьер",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pierre.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "225",
@@ -2585,7 +3015,17 @@ export const GAME_DATA = {
         "food_seafood"
       ],
       "icon": "/game/items/225.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Джоди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jodi.png"
+        }
+      ]
     },
     {
       "id": "607",
@@ -2601,7 +3041,17 @@ export const GAME_DATA = {
         "color_dark_brown"
       ],
       "icon": "/game/items/607.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кент",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Kent.png"
+        }
+      ]
     },
     {
       "id": "207",
@@ -2617,7 +3067,22 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/207.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Деметриус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Demetrius.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        }
+      ]
     },
     {
       "id": "198",
@@ -2633,7 +3098,17 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/198.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "903",
@@ -2651,7 +3126,17 @@ export const GAME_DATA = {
         "ginger_item"
       ],
       "icon": "/game/items/903.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Винсент",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "648",
@@ -2667,7 +3152,11 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/648.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "209",
@@ -2684,7 +3173,17 @@ export const GAME_DATA = {
         "food_seafood"
       ],
       "icon": "/game/items/209.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "731",
@@ -2702,7 +3201,17 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/731.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Сэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sam.png"
+        }
+      ]
     },
     {
       "id": "612",
@@ -2720,7 +3229,17 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/612.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Винсент",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "238",
@@ -2738,7 +3257,11 @@ export const GAME_DATA = {
         "food_sauce"
       ],
       "icon": "/game/items/238.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "244",
@@ -2754,7 +3277,17 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/244.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Пенни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Penny.png"
+        }
+      ]
     },
     {
       "id": "732",
@@ -2771,7 +3304,17 @@ export const GAME_DATA = {
         "food_seafood"
       ],
       "icon": "/game/items/732.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Elliott.png"
+        }
+      ]
     },
     {
       "id": "230",
@@ -2787,7 +3330,22 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/230.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Пенни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Penny.png"
+        }
+      ]
     },
     {
       "id": "733",
@@ -2804,7 +3362,11 @@ export const GAME_DATA = {
         "food_seafood"
       ],
       "icon": "/game/items/733.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "905",
@@ -2821,7 +3383,22 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/905.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Сэнди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sandy.png"
+        },
+        {
+          "villager": "Лео",
+          "taste": "Любит",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "651",
@@ -2839,7 +3416,22 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/651.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Лея",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Leah.png"
+        },
+        {
+          "villager": "Пенни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Penny.png"
+        }
+      ]
     },
     {
       "id": "233",
@@ -2856,7 +3448,47 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/233.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Деметриус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Demetrius.png"
+        },
+        {
+          "villager": "Джордж",
+          "taste": "Любит",
+          "portrait": "/game/portraits/George.png"
+        },
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "265",
@@ -2873,7 +3505,17 @@ export const GAME_DATA = {
         "food_seafood"
       ],
       "icon": "/game/items/265.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кробус",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Krobus.png"
+        }
+      ]
     },
     {
       "id": "204",
@@ -2889,7 +3531,11 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/204.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "200",
@@ -2905,7 +3551,37 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/200.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Джордж",
+          "taste": "Любит",
+          "portrait": "/game/portraits/George.png"
+        },
+        {
+          "villager": "Джоди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jodi.png"
+        },
+        {
+          "villager": "Лея",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Leah.png"
+        },
+        {
+          "villager": "Льюис",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Lewis.png"
+        }
+      ]
     },
     {
       "id": "214",
@@ -2922,7 +3598,27 @@ export const GAME_DATA = {
         "food_seafood"
       ],
       "icon": "/game/items/214.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Джордж",
+          "taste": "Любит",
+          "portrait": "/game/portraits/George.png"
+        },
+        {
+          "villager": "Джоди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jodi.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "195",
@@ -2939,7 +3635,24 @@ export const GAME_DATA = {
         "food_breakfast"
       ],
       "icon": "/game/items/195.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "«Обед фермера»",
+          "amount": 1,
+          "icon": "/game/items/240.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Джордж",
+          "taste": "Любит",
+          "portrait": "/game/portraits/George.png"
+        }
+      ]
     },
     {
       "id": "226",
@@ -2957,7 +3670,17 @@ export const GAME_DATA = {
         "food_spicy"
       ],
       "icon": "/game/items/226.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Abigail.png"
+        }
+      ]
     },
     {
       "id": "215",
@@ -2974,7 +3697,22 @@ export const GAME_DATA = {
         "food_spicy"
       ],
       "icon": "/game/items/215.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        },
+        {
+          "villager": "Шейн",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Shane.png"
+        }
+      ]
     },
     {
       "id": "223",
@@ -2992,7 +3730,37 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/223.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Джордж",
+          "taste": "Любит",
+          "portrait": "/game/portraits/George.png"
+        },
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "873",
@@ -3009,7 +3777,17 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/873.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Пэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pam.png"
+        }
+      ]
     },
     {
       "id": "222",
@@ -3027,7 +3805,37 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/222.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Джоди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jodi.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "206",
@@ -3044,7 +3852,22 @@ export const GAME_DATA = {
         "food_party"
       ],
       "icon": "/game/items/206.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Сэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sam.png"
+        },
+        {
+          "villager": "Шейн",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Shane.png"
+        }
+      ]
     },
     {
       "id": "906",
@@ -3060,7 +3883,17 @@ export const GAME_DATA = {
         "color_pink"
       ],
       "icon": "/game/items/906.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Лео",
+          "taste": "Обожает",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "201",
@@ -3077,7 +3910,17 @@ export const GAME_DATA = {
         "food_breakfast"
       ],
       "icon": "/game/items/201.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Алекс",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Alex.png"
+        }
+      ]
     },
     {
       "id": "921",
@@ -3091,7 +3934,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/921.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "649",
@@ -3108,7 +3955,22 @@ export const GAME_DATA = {
         "food_pasta"
       ],
       "icon": "/game/items/649.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Кент",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Kent.png"
+        }
+      ]
     },
     {
       "id": "232",
@@ -3125,7 +3987,42 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/232.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Деметриус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Demetrius.png"
+        },
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "221",
@@ -3143,7 +4040,32 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/221.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Хэйли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Марни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Marnie.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "727",
@@ -3160,7 +4082,17 @@ export const GAME_DATA = {
         "food_soup"
       ],
       "icon": "/game/items/727.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Elliott.png"
+        }
+      ]
     },
     {
       "id": "213",
@@ -3178,7 +4110,32 @@ export const GAME_DATA = {
         "food_seafood"
       ],
       "icon": "/game/items/213.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кэролайн",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Caroline.png"
+        },
+        {
+          "villager": "Гас",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Gus.png"
+        },
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "196",
@@ -3195,7 +4152,22 @@ export const GAME_DATA = {
         "food_salad"
       ],
       "icon": "/game/items/196.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Лея",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Leah.png"
+        }
+      ]
     },
     {
       "id": "609",
@@ -3212,7 +4184,11 @@ export const GAME_DATA = {
         "food_salad"
       ],
       "icon": "/game/items/609.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "227",
@@ -3230,7 +4206,27 @@ export const GAME_DATA = {
         "food_sushi"
       ],
       "icon": "/game/items/227.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Пэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Пьер",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pierre.png"
+        },
+        {
+          "villager": "Себастиан",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sebastian.png"
+        }
+      ]
     },
     {
       "id": "457",
@@ -3246,7 +4242,11 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/457.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "604",
@@ -3263,7 +4263,17 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/604.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Джас",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jas.png"
+        }
+      ]
     },
     {
       "id": "224",
@@ -3281,7 +4291,22 @@ export const GAME_DATA = {
         "food_pasta"
       ],
       "icon": "/game/items/224.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Робин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Robin.png"
+        },
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        }
+      ]
     },
     {
       "id": "606",
@@ -3297,7 +4322,17 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/606.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Лея",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Leah.png"
+        }
+      ]
     },
     {
       "id": "203",
@@ -3313,7 +4348,17 @@ export const GAME_DATA = {
         "color_pink"
       ],
       "icon": "/game/items/203.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кробус",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Krobus.png"
+        }
+      ]
     },
     {
       "id": "456",
@@ -3329,7 +4374,11 @@ export const GAME_DATA = {
         "color_dark_green"
       ],
       "icon": "/game/items/456.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "MossSoup",
@@ -3345,7 +4394,11 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/MossSoup.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "199",
@@ -3361,7 +4414,22 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/199.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Джордж",
+          "taste": "Любит",
+          "portrait": "/game/portraits/George.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pam.png"
+        }
+      ]
     },
     {
       "id": "218",
@@ -3378,7 +4446,22 @@ export const GAME_DATA = {
         "food_soup"
       ],
       "icon": "/game/items/218.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Elliott.png"
+        },
+        {
+          "villager": "Пенни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Penny.png"
+        }
+      ]
     },
     {
       "id": "228",
@@ -3396,7 +4479,28 @@ export const GAME_DATA = {
         "food_sushi"
       ],
       "icon": "/game/items/228.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Поварской узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Пэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        }
+      ]
     },
     {
       "id": "229",
@@ -3412,7 +4516,24 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/229.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Обед на удачу",
+          "amount": 1,
+          "icon": "/game/items/204.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Рыбное тако",
+          "amount": 1,
+          "icon": "/game/items/213.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "253",
@@ -3430,7 +4551,11 @@ export const GAME_DATA = {
         "coffee_item"
       ],
       "icon": "/game/items/253.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "907",
@@ -3446,7 +4571,22 @@ export const GAME_DATA = {
         "color_orange"
       ],
       "icon": "/game/items/907.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кэролайн",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Caroline.png"
+        },
+        {
+          "villager": "Гас",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Gus.png"
+        }
+      ]
     },
     {
       "id": "608",
@@ -3464,7 +4604,17 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/608.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Марни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Marnie.png"
+        }
+      ]
     },
     {
       "id": "236",
@@ -3481,7 +4631,17 @@ export const GAME_DATA = {
         "food_soup"
       ],
       "icon": "/game/items/236.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Себастиан",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sebastian.png"
+        }
+      ]
     },
     {
       "id": "212",
@@ -3498,7 +4658,22 @@ export const GAME_DATA = {
         "food_seafood"
       ],
       "icon": "/game/items/212.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Алекс",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Alex.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "728",
@@ -3516,7 +4691,17 @@ export const GAME_DATA = {
         "food_soup"
       ],
       "icon": "/game/items/728.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Elliott.png"
+        }
+      ]
     },
     {
       "id": "219",
@@ -3534,7 +4719,17 @@ export const GAME_DATA = {
         "food_soup"
       ],
       "icon": "/game/items/219.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Джордж",
+          "taste": "Любит",
+          "portrait": "/game/portraits/George.png"
+        }
+      ]
     },
     {
       "id": "610",
@@ -3551,7 +4746,17 @@ export const GAME_DATA = {
         "food_salad"
       ],
       "icon": "/game/items/610.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Хэйли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Haley.png"
+        }
+      ]
     },
     {
       "id": "210",
@@ -3568,7 +4773,30 @@ export const GAME_DATA = {
         "food_breakfast"
       ],
       "icon": "/game/items/210.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Полный завтрак",
+          "amount": 1,
+          "icon": "/game/items/201.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "«Морское блюдо»",
+          "amount": 1,
+          "icon": "/game/items/242.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        }
+      ]
     },
     {
       "id": "216",
@@ -3585,7 +4813,30 @@ export const GAME_DATA = {
         "food_bakery"
       ],
       "icon": "/game/items/216.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "«Объеденье»",
+          "amount": 1,
+          "icon": "/game/items/239.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "«Бургер для выживания»",
+          "amount": 1,
+          "icon": "/game/items/241.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Брускетта",
+          "amount": 1,
+          "icon": "/game/items/618.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "197",
@@ -3601,7 +4852,17 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/197.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "234",
@@ -3619,7 +4880,32 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/234.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Линус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Linus.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "772",
@@ -3636,7 +4922,11 @@ export const GAME_DATA = {
         "potion_item"
       ],
       "icon": "/game/items/772.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "237",
@@ -3652,7 +4942,17 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/237.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Харви",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Harvey.png"
+        }
+      ]
     },
     {
       "id": "220",
@@ -3671,7 +4971,32 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/220.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Abigail.png"
+        },
+        {
+          "villager": "Эвелин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Evelyn.png"
+        },
+        {
+          "villager": "Джоди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jodi.png"
+        },
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        }
+      ]
     },
     {
       "id": "773",
@@ -3688,7 +5013,11 @@ export const GAME_DATA = {
         "potion_item"
       ],
       "icon": "/game/items/773.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "729",
@@ -3704,7 +5033,17 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/729.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Гас",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Gus.png"
+        }
+      ]
     },
     {
       "id": "194",
@@ -3721,7 +5060,24 @@ export const GAME_DATA = {
         "food_breakfast"
       ],
       "icon": "/game/items/194.png",
-      "categoryName": "Готовка"
+      "categoryName": "Готовка",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Поварской узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Полный завтрак",
+          "amount": 1,
+          "icon": "/game/items/201.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "840",
@@ -3735,7 +5091,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/840.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "405",
@@ -3749,7 +5109,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/405.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "328",
@@ -3763,7 +5127,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/328.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "407",
@@ -3777,7 +5145,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/407.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "409",
@@ -3791,7 +5163,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/409.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "415",
@@ -3805,7 +5181,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/415.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "411",
@@ -3819,7 +5199,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/411.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "329",
@@ -3833,7 +5217,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/329.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "841",
@@ -3847,7 +5235,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/841.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "293",
@@ -3861,7 +5253,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/293.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "333",
@@ -3875,7 +5271,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/333.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "331",
@@ -3889,7 +5289,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/331.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "401",
@@ -3903,7 +5307,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/401.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "341",
@@ -3917,7 +5325,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/341.png",
-      "categoryName": "Декор"
+      "categoryName": "Декор",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "446",
@@ -3933,7 +5345,17 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/446.png",
-      "categoryName": "Животное"
+      "categoryName": "Животное",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Узелок волшебника",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "444",
@@ -3949,7 +5371,28 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/444.png",
-      "categoryName": "Животное"
+      "categoryName": "Животное",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Красочный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Elliott.png"
+        },
+        {
+          "villager": "Лео",
+          "taste": "Обожает",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "440",
@@ -3965,7 +5408,28 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/440.png",
-      "categoryName": "Животное"
+      "categoryName": "Животное",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Животноводческий узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эмили",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Сэнди",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sandy.png"
+        }
+      ]
     },
     {
       "id": "725",
@@ -3982,7 +5446,41 @@ export const GAME_DATA = {
         "syrup_item"
       ],
       "icon": "/game/items/725.png",
-      "categoryName": "Зелень"
+      "categoryName": "Зелень",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок заготовки экзотики",
+          "amount": 1
+        },
+        {
+          "room": "Доска объявлений",
+          "bundle": "Узелок волшебника",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Keg_Name",
+          "amount": 1,
+          "icon": "/game/craftables/12.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "СкороРост Делюкс",
+          "amount": 1,
+          "icon": "/game/items/466.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Мару",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "724",
@@ -3999,7 +5497,35 @@ export const GAME_DATA = {
         "syrup_item"
       ],
       "icon": "/game/items/724.png",
-      "categoryName": "Зелень"
+      "categoryName": "Зелень",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок заготовки экзотики",
+          "amount": 1
+        },
+        {
+          "room": "Доска объявлений",
+          "bundle": "Поварской узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Кленовый пончик",
+          "amount": 1,
+          "icon": "/game/items/731.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BeeHouse_Name",
+          "amount": 1,
+          "icon": "/game/craftables/10.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "726",
@@ -4016,7 +5542,42 @@ export const GAME_DATA = {
         "syrup_item"
       ],
       "icon": "/game/items/726.png",
-      "categoryName": "Зелень"
+      "categoryName": "Зелень",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок заготовки экзотики",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Loom_Name",
+          "amount": 1,
+          "icon": "/game/craftables/17.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "СкороРост",
+          "amount": 1,
+          "icon": "/game/items/465.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем дождя",
+          "amount": 5,
+          "icon": "/game/items/681.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Мару",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "MysticSyrup",
@@ -4032,7 +5593,24 @@ export const GAME_DATA = {
         "color_cyan"
       ],
       "icon": "/game/items/MysticSyrup.png",
-      "categoryName": "Зелень"
+      "categoryName": "Зелень",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Рассада голубой травы",
+          "amount": 1,
+          "icon": "/game/items/BlueGrassStarter.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем сокровищ",
+          "amount": 1,
+          "icon": "/game/items/TreasureTotem.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "868",
@@ -4046,7 +5624,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/868.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "864",
@@ -4060,7 +5642,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/864.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "791",
@@ -4077,7 +5663,11 @@ export const GAME_DATA = {
         "geode_crusher_ignored"
       ],
       "icon": "/game/items/791.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "GoldenBobber",
@@ -4091,7 +5681,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/GoldenBobber.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "869",
@@ -4105,7 +5699,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/869.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "865",
@@ -4119,7 +5717,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/865.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "790",
@@ -4133,7 +5735,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/790.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "870",
@@ -4147,7 +5753,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/870.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "897",
@@ -4161,7 +5771,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/897.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "742",
@@ -4175,7 +5789,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/742.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "788",
@@ -4189,7 +5807,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/788.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "867",
@@ -4203,7 +5825,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/867.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "876",
@@ -4217,7 +5843,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/876.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "191",
@@ -4231,7 +5861,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/191.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "866",
@@ -4245,7 +5879,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/866.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "71",
@@ -4259,7 +5897,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/71.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "789",
@@ -4273,7 +5915,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/789.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "875",
@@ -4287,7 +5933,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/875.png",
-      "categoryName": "Квесты"
+      "categoryName": "Квесты",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Bombs",
@@ -4305,7 +5955,17 @@ export const GAME_DATA = {
         "book_xp_mining"
       ],
       "icon": "/game/items/Book_Bombs.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Kent.png"
+        }
+      ]
     },
     {
       "id": "Book_WildSeeds",
@@ -4323,7 +5983,11 @@ export const GAME_DATA = {
         "book_xp_foraging"
       ],
       "icon": "/game/items/Book_WildSeeds.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Marlon",
@@ -4341,7 +6005,11 @@ export const GAME_DATA = {
         "book_xp_combat"
       ],
       "icon": "/game/items/Book_Marlon.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_AnimalCatalogue",
@@ -4358,7 +6026,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_AnimalCatalogue.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_PriceCatalogue",
@@ -4375,7 +6047,17 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_PriceCatalogue.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Пьер",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pierre.png"
+        }
+      ]
     },
     {
       "id": "Book_QueenOfSauce",
@@ -4392,7 +6074,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_QueenOfSauce.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Mystery",
@@ -4409,7 +6095,17 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_Mystery.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Волшебник",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Wizard.png"
+        }
+      ]
     },
     {
       "id": "Book_Void",
@@ -4427,7 +6123,27 @@ export const GAME_DATA = {
         "book_xp_combat"
       ],
       "icon": "/game/items/Book_Void.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Abigail.png"
+        },
+        {
+          "villager": "Кробус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Krobus.png"
+        },
+        {
+          "villager": "Себастиан",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sebastian.png"
+        }
+      ]
     },
     {
       "id": "Book_Crabbing",
@@ -4445,7 +6161,17 @@ export const GAME_DATA = {
         "book_xp_fishing"
       ],
       "icon": "/game/items/Book_Crabbing.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "Book_Defense",
@@ -4463,7 +6189,17 @@ export const GAME_DATA = {
         "book_xp_combat"
       ],
       "icon": "/game/items/Book_Defense.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Алекс",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Alex.png"
+        }
+      ]
     },
     {
       "id": "Book_Horse",
@@ -4480,7 +6216,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_Horse.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Friendship",
@@ -4497,7 +6237,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_Friendship.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Diamonds",
@@ -4515,7 +6259,11 @@ export const GAME_DATA = {
         "book_xp_mining"
       ],
       "icon": "/game/items/Book_Diamonds.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Trash",
@@ -4533,7 +6281,17 @@ export const GAME_DATA = {
         "book_xp_foraging"
       ],
       "icon": "/game/items/Book_Trash.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Линус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Linus.png"
+        }
+      ]
     },
     {
       "id": "Book_Speed",
@@ -4550,7 +6308,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_Speed.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Speed2",
@@ -4567,7 +6329,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_Speed2.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Artifact",
@@ -4584,7 +6350,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_Artifact.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Woodcutting",
@@ -4602,7 +6372,17 @@ export const GAME_DATA = {
         "book_xp_foraging"
       ],
       "icon": "/game/items/Book_Woodcutting.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Робин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Robin.png"
+        }
+      ]
     },
     {
       "id": "Book_Roe",
@@ -4621,7 +6401,11 @@ export const GAME_DATA = {
         "fish_has_roe"
       ],
       "icon": "/game/items/Book_Roe.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "Book_Grass",
@@ -4638,7 +6422,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/Book_Grass.png",
-      "categoryName": "Книга"
+      "categoryName": "Книга",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "SkillBook_0",
@@ -4655,7 +6443,17 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/SkillBook_0.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Марни",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Marnie.png"
+        }
+      ]
     },
     {
       "id": "SkillBook_4",
@@ -4672,7 +6470,22 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/SkillBook_4.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Abigail.png"
+        },
+        {
+          "villager": "Себастиан",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sebastian.png"
+        }
+      ]
     },
     {
       "id": "SkillBook_3",
@@ -4689,7 +6502,17 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/SkillBook_3.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Clint.png"
+        }
+      ]
     },
     {
       "id": "SkillBook_2",
@@ -4706,7 +6529,17 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/SkillBook_2.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Робин",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Robin.png"
+        }
+      ]
     },
     {
       "id": "GoldenAnimalCracker",
@@ -4722,7 +6555,11 @@ export const GAME_DATA = {
         "color_gold"
       ],
       "icon": "/game/items/GoldenAnimalCracker.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "449",
@@ -4736,7 +6573,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/449.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "PurpleBook",
@@ -4753,7 +6594,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/PurpleBook.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "590",
@@ -4767,7 +6612,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/590.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "SeedSpot",
@@ -4781,7 +6630,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/SeedSpot.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "842",
@@ -4795,7 +6648,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/842.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "SkillBook_1",
@@ -4812,7 +6669,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/SkillBook_1.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "102",
@@ -4828,7 +6689,11 @@ export const GAME_DATA = {
         "book_item"
       ],
       "icon": "/game/items/102.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "79",
@@ -4842,7 +6707,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/79.png",
-      "categoryName": "Книги"
+      "categoryName": "Книги",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "526",
@@ -4859,7 +6728,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/526.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "861",
@@ -4876,7 +6749,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/861.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "527",
@@ -4893,7 +6770,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/527.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "524",
@@ -4910,7 +6791,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/524.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "522",
@@ -4927,7 +6812,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/522.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "521",
@@ -4944,7 +6833,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/521.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "860",
@@ -4961,7 +6854,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/860.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "523",
@@ -4978,7 +6875,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/523.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "531",
@@ -4995,7 +6896,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/531.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "529",
@@ -5012,7 +6917,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/529.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "533",
@@ -5029,7 +6938,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/533.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "532",
@@ -5046,7 +6959,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/532.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "534",
@@ -5063,7 +6980,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/534.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "530",
@@ -5080,7 +7001,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/530.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "517",
@@ -5097,7 +7022,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/517.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "525",
@@ -5114,7 +7043,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/525.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "859",
@@ -5131,7 +7064,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/859.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "520",
@@ -5148,7 +7085,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/520.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "863",
@@ -5165,7 +7106,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/863.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "839",
@@ -5182,7 +7127,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/839.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "519",
@@ -5199,7 +7148,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/519.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "810",
@@ -5216,7 +7169,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/810.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "516",
@@ -5233,7 +7190,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/516.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "518",
@@ -5250,7 +7211,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/518.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "528",
@@ -5267,7 +7232,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/528.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "811",
@@ -5284,7 +7253,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/811.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "801",
@@ -5300,7 +7273,11 @@ export const GAME_DATA = {
         "color_iridium"
       ],
       "icon": "/game/items/801.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "887",
@@ -5317,7 +7294,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/887.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "862",
@@ -5334,7 +7315,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/862.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "880",
@@ -5350,7 +7335,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/880.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "888",
@@ -5367,7 +7356,11 @@ export const GAME_DATA = {
         "ring_item"
       ],
       "icon": "/game/items/888.png",
-      "categoryName": "Кольца"
+      "categoryName": "Кольца",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "300",
@@ -5385,7 +7378,18 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/300.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Осень; растет 7 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Ужин из лосося",
+          "amount": 1,
+          "icon": "/game/items/212.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "274",
@@ -5404,7 +7408,30 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/274.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Осень; растет 8 дн.; Год 2+",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Чудо-блюдо",
+          "amount": 1,
+          "icon": "/game/items/237.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Артишоковый дип",
+          "amount": 1,
+          "icon": "/game/items/605.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Lewis.png"
+        }
+      ]
     },
     {
       "id": "272",
@@ -5422,7 +7449,36 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/272.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Осень; растет 5 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок осеннего урожая",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Баклажаны с пармезаном",
+          "amount": 1,
+          "icon": "/game/items/231.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "«Бургер для выживания»",
+          "amount": 1,
+          "icon": "/game/items/241.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Lewis.png"
+        }
+      ]
     },
     {
       "id": "280",
@@ -5440,7 +7496,36 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/280.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Осень; растет 10 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок осеннего урожая",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Глазированный батат",
+          "amount": 1,
+          "icon": "/game/items/208.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "«Дары осени»",
+          "amount": 1,
+          "icon": "/game/items/235.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Линус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Linus.png"
+        }
+      ]
     },
     {
       "id": "278",
@@ -5458,7 +7543,24 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/278.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Осень; растет 4 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Чудо-блюдо",
+          "amount": 1,
+          "icon": "/game/items/237.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Lewis.png"
+        }
+      ]
     },
     {
       "id": "Broccoli",
@@ -5476,7 +7578,11 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/Broccoli.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Осень; растет 8 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "188",
@@ -5494,7 +7600,24 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/188.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Весна; растет 10 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок весеннего урожая",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Жаркое из фасоли",
+          "amount": 2,
+          "icon": "/game/items/207.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "192",
@@ -5512,7 +7635,30 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/192.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Весна; растет 6 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок весеннего урожая",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Хашбраун",
+          "amount": 1,
+          "icon": "/game/items/210.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Lewis.png"
+        }
+      ]
     },
     {
       "id": "830",
@@ -5528,7 +7674,18 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/830.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Лето; растет 10 дн.; Остров",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Пои",
+          "amount": 4,
+          "icon": "/game/items/906.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "266",
@@ -5547,7 +7704,36 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/266.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Лето; растет 9 дн.; Год 2+",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Красочный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Рыбное тако",
+          "amount": 1,
+          "icon": "/game/items/213.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Красное блюдо",
+          "amount": 1,
+          "icon": "/game/items/230.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Капустный салат",
+          "amount": 1,
+          "icon": "/game/items/648.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "250",
@@ -5565,7 +7751,24 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/250.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Весна; растет 6 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Ужин из лосося",
+          "amount": 1,
+          "icon": "/game/items/212.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Стир-фрай",
+          "amount": 1,
+          "icon": "/game/items/606.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "270",
@@ -5584,7 +7787,29 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/270.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Лето, Осень; растет 14 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок осеннего урожая",
+          "amount": 1
+        },
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок отборного урожая",
+          "amount": 5
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Тортилья",
+          "amount": 1,
+          "icon": "/game/items/229.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "Carrot",
@@ -5602,7 +7827,11 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/Carrot.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Весна; растет 3 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "271",
@@ -5620,7 +7849,11 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/271.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Весна; растет 8 дн.; Год 2+",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "24",
@@ -5638,7 +7871,46 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/24.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Весна; растет 4 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок весеннего урожая",
+          "amount": 1
+        },
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок отборного урожая",
+          "amount": 5
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Суп из пастернака",
+          "amount": 1,
+          "icon": "/game/items/199.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "«Обед фермера»",
+          "amount": 1,
+          "icon": "/game/items/240.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Lewis.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pam.png"
+        }
+      ]
     },
     {
       "id": "256",
@@ -5656,7 +7928,66 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/256.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Лето; растет 11 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок летнего урожая",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Овощное ассорти",
+          "amount": 1,
+          "icon": "/game/items/200.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Пицца",
+          "amount": 1,
+          "icon": "/game/items/206.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Спагетти",
+          "amount": 1,
+          "icon": "/game/items/224.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Баклажаны с пармезаном",
+          "amount": 1,
+          "icon": "/game/items/231.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Брускетта",
+          "amount": 1,
+          "icon": "/game/items/618.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Уха",
+          "amount": 1,
+          "icon": "/game/items/728.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Креветочный коктейль",
+          "amount": 1,
+          "icon": "/game/items/733.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Равиоли с чернилами кальмара",
+          "amount": 1,
+          "icon": "/game/items/921.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "262",
@@ -5672,7 +8003,17 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/262.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Лето, Осень; растет 4 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Кормовой узелок",
+          "amount": 10
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "264",
@@ -5690,7 +8031,30 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/264.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Лето; растет 6 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Красное блюдо",
+          "amount": 1,
+          "icon": "/game/items/230.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Салат из редиса",
+          "amount": 1,
+          "icon": "/game/items/609.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Lewis.png"
+        }
+      ]
     },
     {
       "id": "284",
@@ -5708,7 +8072,24 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/284.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Осень; растет 6 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Овощное ассорти",
+          "amount": 1,
+          "icon": "/game/items/200.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Эвелин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Evelyn.png"
+        }
+      ]
     },
     {
       "id": "SummerSquash",
@@ -5726,7 +8107,11 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/SummerSquash.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Лето; растет 6 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "259",
@@ -5746,7 +8131,30 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/259.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Лето; тайный лес; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Поварской узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Ризотто с папоротником",
+          "amount": 1,
+          "icon": "/game/items/649.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Пьер",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pierre.png"
+        }
+      ]
     },
     {
       "id": "276",
@@ -5764,7 +8172,68 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/276.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Осень; растет 13 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок осеннего урожая",
+          "amount": 1
+        },
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок отборного урожая",
+          "amount": 5
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "«Дары осени»",
+          "amount": 1,
+          "icon": "/game/items/235.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Тыквенный суп",
+          "amount": 1,
+          "icon": "/game/items/236.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Тыквенный пирог",
+          "amount": 1,
+          "icon": "/game/items/608.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Фонарь из тыквы",
+          "amount": 1,
+          "icon": "/game/items/746.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Abigail.png"
+        },
+        {
+          "villager": "Кробус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Krobus.png"
+        },
+        {
+          "villager": "Себастиан",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sebastian.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "304",
@@ -5780,7 +8249,11 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/304.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Лето; растет 11 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "190",
@@ -5798,7 +8271,30 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/190.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Весна; растет 12 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок весеннего урожая",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Цветная капуста с сыром",
+          "amount": 1,
+          "icon": "/game/items/197.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "815",
@@ -5814,7 +8310,17 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/815.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кэролайн",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Caroline.png"
+        }
+      ]
     },
     {
       "id": "248",
@@ -5833,7 +8339,30 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/248.png",
-      "categoryName": "Культура"
+      "categoryName": "Культура",
+      "availability": "Весна; растет 4 дн.; Год 2+",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Ризотто с папоротником",
+          "amount": 1,
+          "icon": "/game/items/649.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Эскарго",
+          "amount": 1,
+          "icon": "/game/items/729.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Чесночное масло",
+          "amount": 10,
+          "icon": "/game/items/772.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "463",
@@ -5847,7 +8376,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/463.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "461",
@@ -5861,7 +8394,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/461.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "896",
@@ -5877,7 +8414,11 @@ export const GAME_DATA = {
         "not_placeable"
       ],
       "icon": "/game/items/896.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "874",
@@ -5893,7 +8434,11 @@ export const GAME_DATA = {
         "color_pink"
       ],
       "icon": "/game/items/874.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "434",
@@ -5907,7 +8452,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/434.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "395",
@@ -5924,7 +8473,24 @@ export const GAME_DATA = {
         "coffee_item"
       ],
       "icon": "/game/items/395.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Тройной эспрессо",
+          "amount": 3,
+          "icon": "/game/items/253.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Харви",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Harvey.png"
+        }
+      ]
     },
     {
       "id": "710",
@@ -5940,7 +8506,11 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/710.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "351",
@@ -5957,7 +8527,11 @@ export const GAME_DATA = {
         "medicine_item"
       ],
       "icon": "/game/items/351.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "911",
@@ -5973,7 +8547,11 @@ export const GAME_DATA = {
         "not_placeable"
       ],
       "icon": "/game/items/911.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "879",
@@ -5991,7 +8569,17 @@ export const GAME_DATA = {
         "potion_item"
       ],
       "icon": "/game/items/879.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кробус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Krobus.png"
+        }
+      ]
     },
     {
       "id": "TentKit",
@@ -6007,7 +8595,11 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/TentKit.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "403",
@@ -6023,7 +8615,17 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/403.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Алекс",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Alex.png"
+        }
+      ]
     },
     {
       "id": "926",
@@ -6037,7 +8639,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/926.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "927",
@@ -6051,7 +8657,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/927.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "BlueGrassStarter",
@@ -6068,7 +8678,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/BlueGrassStarter.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "297",
@@ -6084,7 +8698,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/297.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "681",
@@ -6102,7 +8720,11 @@ export const GAME_DATA = {
         "totem_item"
       ],
       "icon": "/game/items/681.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "TreasureTotem",
@@ -6120,7 +8742,11 @@ export const GAME_DATA = {
         "totem_item"
       ],
       "icon": "/game/items/TreasureTotem.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "892",
@@ -6137,7 +8763,11 @@ export const GAME_DATA = {
         "totem_item"
       ],
       "icon": "/game/items/892.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "689",
@@ -6155,7 +8785,11 @@ export const GAME_DATA = {
         "totem_item"
       ],
       "icon": "/game/items/689.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "886",
@@ -6173,7 +8807,11 @@ export const GAME_DATA = {
         "totem_item"
       ],
       "icon": "/game/items/886.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "690",
@@ -6191,7 +8829,11 @@ export const GAME_DATA = {
         "totem_item"
       ],
       "icon": "/game/items/690.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "261",
@@ -6209,7 +8851,11 @@ export const GAME_DATA = {
         "totem_item"
       ],
       "icon": "/game/items/261.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "688",
@@ -6227,7 +8873,11 @@ export const GAME_DATA = {
         "totem_item"
       ],
       "icon": "/game/items/688.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "93",
@@ -6245,7 +8895,18 @@ export const GAME_DATA = {
         "torch_item"
       ],
       "icon": "/game/items/93.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Фонарь из тыквы",
+          "amount": 1,
+          "icon": "/game/items/746.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "94",
@@ -6263,7 +8924,11 @@ export const GAME_DATA = {
         "torch_item"
       ],
       "icon": "/game/items/94.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "464",
@@ -6277,7 +8942,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/464.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "349",
@@ -6294,7 +8963,11 @@ export const GAME_DATA = {
         "medicine_item"
       ],
       "icon": "/game/items/349.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "925",
@@ -6308,7 +8981,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/925.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "922",
@@ -6322,7 +8999,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/922.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "923",
@@ -6336,7 +9017,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/923.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "924",
@@ -6350,7 +9035,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/924.png",
-      "categoryName": "Материалы"
+      "categoryName": "Материалы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "380",
@@ -6368,7 +9057,18 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/380.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Бомба",
+          "amount": 4,
+          "icon": "/game/items/287.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "335",
@@ -6386,7 +9086,101 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/335.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Кузнечный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Железный забор",
+          "amount": 1,
+          "icon": "/game/items/324.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BeeHouse_Name",
+          "amount": 1,
+          "icon": "/game/craftables/10.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Keg_Name",
+          "amount": 1,
+          "icon": "/game/craftables/12.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "HeavyFurnace_Name",
+          "amount": 3,
+          "icon": "/game/craftables/HeavyFurnace.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Anvil_Name",
+          "amount": 50,
+          "icon": "/game/craftables/Anvil.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "MiniForge_Name",
+          "amount": 10,
+          "icon": "/game/craftables/MiniForge.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "RecyclingMachine_Name",
+          "amount": 1,
+          "icon": "/game/craftables/20.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "WormBin_Name",
+          "amount": 1,
+          "icon": "/game/craftables/154.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BaitMaker_Name",
+          "amount": 3,
+          "icon": "/game/craftables/BaitMaker.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "LightningRod_Name",
+          "amount": 1,
+          "icon": "/game/craftables/9.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "MiniJukebox_Name",
+          "amount": 2,
+          "icon": "/game/craftables/209.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Спринклер",
+          "amount": 1,
+          "icon": "/game/items/599.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "384",
@@ -6404,7 +9198,18 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/384.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Мегабомба",
+          "amount": 4,
+          "icon": "/game/items/288.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "336",
@@ -6422,7 +9227,111 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/336.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Кузнечный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "MiniForge_Name",
+          "amount": 10,
+          "icon": "/game/craftables/MiniForge.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "SeedMaker_Name",
+          "amount": 1,
+          "icon": "/game/craftables/25.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "OilMaker_Name",
+          "amount": 1,
+          "icon": "/game/craftables/19.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "WormBin_Name",
+          "amount": 1,
+          "icon": "/game/craftables/154.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Crystalarium_Name",
+          "amount": 5,
+          "icon": "/game/craftables/21.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Высококачественный спринклер",
+          "amount": 1,
+          "icon": "/game/items/621.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Иридиевый спринклер",
+          "amount": 1,
+          "icon": "/game/items/645.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "«Искатель сокровищ»",
+          "amount": 2,
+          "icon": "/game/items/693.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Крючок с бородкой",
+          "amount": 1,
+          "icon": "/game/items/691.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Кольцо Иобы",
+          "amount": 5,
+          "icon": "/game/items/524.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "GoldBrazier_Name",
+          "amount": 1,
+          "icon": "/game/craftables/145.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "MiniObelisk_Name",
+          "amount": 3,
+          "icon": "/game/craftables/238.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Кробус",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Krobus.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "386",
@@ -6440,7 +9349,24 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/386.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "DeluxeScarecrow_Name",
+          "amount": 1,
+          "icon": "/game/craftables/167.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Пустыня",
+          "amount": 4,
+          "icon": "/game/items/261.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "337",
@@ -6458,7 +9384,92 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/337.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "MiniForge_Name",
+          "amount": 5,
+          "icon": "/game/craftables/MiniForge.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "SlimeIncubator_Name",
+          "amount": 2,
+          "icon": "/game/craftables/156.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Crystalarium_Name",
+          "amount": 2,
+          "icon": "/game/craftables/21.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Иридиевый спринклер",
+          "amount": 1,
+          "icon": "/game/items/645.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Удобрение Делюкс",
+          "amount": 1,
+          "icon": "/game/items/919.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "StatueOfTheDwarfKing_Name",
+          "amount": 20,
+          "icon": "/game/craftables/StatueOfTheDwarfKing.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Иридиевый перстень",
+          "amount": 5,
+          "icon": "/game/items/527.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Обручальное кольцо",
+          "amount": 5,
+          "icon": "/game/items/801.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Hopper_Name",
+          "amount": 1,
+          "icon": "/game/craftables/275.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Кробус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Krobus.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        },
+        {
+          "villager": "Волшебник",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Wizard.png"
+        }
+      ]
     },
     {
       "id": "881",
@@ -6476,7 +9487,60 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/881.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "DarkSign_Name",
+          "amount": 5,
+          "icon": "/game/craftables/39.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "СкороРост Делюкс",
+          "amount": 5,
+          "icon": "/game/items/466.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Гипер СкороРост",
+          "amount": 3,
+          "icon": "/game/items/918.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Сложная наживка",
+          "amount": 5,
+          "icon": "/game/items/ChallengeBait.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "SkullBrazier_Name",
+          "amount": 10,
+          "icon": "/game/craftables/149.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "OstrichIncubator_Name",
+          "amount": 50,
+          "icon": "/game/craftables/254.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BoneMill_Name",
+          "amount": 10,
+          "icon": "/game/craftables/90.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Кольцо шипов",
+          "amount": 50,
+          "icon": "/game/items/839.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "378",
@@ -6494,7 +9558,36 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/378.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Furnace_Name",
+          "amount": 20,
+          "icon": "/game/craftables/13.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Флейта-блок",
+          "amount": 2,
+          "icon": "/game/items/464.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Барабан-блок",
+          "amount": 2,
+          "icon": "/game/items/463.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Бомбочка",
+          "amount": 4,
+          "icon": "/game/items/286.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "334",
@@ -6512,7 +9605,101 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/334.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Кузнечный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "BigChest_Name",
+          "amount": 2,
+          "icon": "/game/craftables/BigChest.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Keg_Name",
+          "amount": 1,
+          "icon": "/game/craftables/12.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "CheesePress_Name",
+          "amount": 1,
+          "icon": "/game/craftables/16.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "MayonnaiseMachine_Name",
+          "amount": 1,
+          "icon": "/game/craftables/24.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "CharcoalKiln_Name",
+          "amount": 2,
+          "icon": "/game/craftables/114.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Tapper_Name",
+          "amount": 2,
+          "icon": "/game/craftables/105.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Спринклер",
+          "amount": 1,
+          "icon": "/game/items/599.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Железный слиток",
+          "amount": 3,
+          "icon": "/game/items/335.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Мини-ловушка",
+          "amount": 1,
+          "icon": "/game/items/694.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Крючок с бородкой",
+          "amount": 1,
+          "icon": "/game/items/691.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Кольцо стойкости",
+          "amount": 2,
+          "icon": "/game/items/525.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Высококачественный поплавок",
+          "amount": 1,
+          "icon": "/game/items/877.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "338",
@@ -6529,7 +9716,60 @@ export const GAME_DATA = {
         "furnace_item"
       ],
       "icon": "/game/items/338.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "GardenPot_Name",
+          "amount": 1,
+          "icon": "/game/craftables/62.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "LightningRod_Name",
+          "amount": 1,
+          "icon": "/game/craftables/9.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Высококачественный спринклер",
+          "amount": 1,
+          "icon": "/game/items/621.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Кристальное покрытие",
+          "amount": 1,
+          "icon": "/game/items/333.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Дорожка из кристаллов",
+          "amount": 1,
+          "icon": "/game/items/409.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Сонарный поплавок",
+          "amount": 2,
+          "icon": "/game/items/SonarBobber.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "FarmComputer_Name",
+          "amount": 10,
+          "icon": "/game/craftables/239.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "SolarPanel_Name",
+          "amount": 10,
+          "icon": "/game/craftables/231.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "909",
@@ -6547,7 +9787,24 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/909.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Гипер СкороРост",
+          "amount": 1,
+          "icon": "/game/items/918.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Волшебная приманка",
+          "amount": 1,
+          "icon": "/game/items/908.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "910",
@@ -6565,7 +9822,24 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/910.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "HeavyTapper_Name",
+          "amount": 1,
+          "icon": "/game/craftables/264.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Hopper_Name",
+          "amount": 1,
+          "icon": "/game/craftables/275.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "848",
@@ -6581,7 +9855,18 @@ export const GAME_DATA = {
         "color_orange"
       ],
       "icon": "/game/items/848.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "OstrichIncubator_Name",
+          "amount": 20,
+          "icon": "/game/craftables/254.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "382",
@@ -6597,7 +9882,84 @@ export const GAME_DATA = {
         "color_black"
       ],
       "icon": "/game/items/382.png",
-      "categoryName": "Металл"
+      "categoryName": "Металл",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Scarecrow_Name",
+          "amount": 1,
+          "icon": "/game/craftables/8.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BeeHouse_Name",
+          "amount": 8,
+          "icon": "/game/craftables/10.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "SeedMaker_Name",
+          "amount": 10,
+          "icon": "/game/craftables/25.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "PreservesJar_Name",
+          "amount": 8,
+          "icon": "/game/craftables/15.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "SlimeEggPress_Name",
+          "amount": 25,
+          "icon": "/game/craftables/158.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Бомбочка",
+          "amount": 1,
+          "icon": "/game/items/286.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Бомба",
+          "amount": 1,
+          "icon": "/game/items/287.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Взрывные снаряды",
+          "amount": 2,
+          "icon": "/game/items/441.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Походная кухня",
+          "amount": 3,
+          "icon": "/game/items/926.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Кольцо воина",
+          "amount": 25,
+          "icon": "/game/items/521.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "WoodenBrazier_Name",
+          "amount": 1,
+          "icon": "/game/craftables/143.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "WickedStatue_Name",
+          "amount": 5,
+          "icon": "/game/craftables/83.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "62",
@@ -6613,7 +9975,50 @@ export const GAME_DATA = {
         "color_aquamarine"
       ],
       "icon": "/game/items/62.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Красочный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "MarbleBrazier_Name",
+          "amount": 1,
+          "icon": "/game/craftables/151.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Дварф",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Dwarf.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "72",
@@ -6629,7 +10034,76 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/72.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Кольцо Иобы",
+          "amount": 1,
+          "icon": "/game/items/524.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Волшебный порошок",
+          "amount": 1,
+          "icon": "/game/items/872.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "GeodeCrusher_Name",
+          "amount": 1,
+          "icon": "/game/craftables/182.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Эвелин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Evelyn.png"
+        },
+        {
+          "villager": "Гас",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Gus.png"
+        },
+        {
+          "villager": "Джоди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jodi.png"
+        },
+        {
+          "villager": "Кробус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Krobus.png"
+        },
+        {
+          "villager": "Марни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Marnie.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        },
+        {
+          "villager": "Пенни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Penny.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        },
+        {
+          "villager": "Волшебник",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Wizard.png"
+        }
+      ]
     },
     {
       "id": "538",
@@ -6645,7 +10119,11 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/538.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "66",
@@ -6661,7 +10139,47 @@ export const GAME_DATA = {
         "color_purple"
       ],
       "icon": "/game/items/66.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Abigail.png"
+        },
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Дварф",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Dwarf.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Кробус",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Krobus.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Maru.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "574",
@@ -6677,7 +10195,11 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/574.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "570",
@@ -6693,7 +10215,11 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/570.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "540",
@@ -6709,7 +10235,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/540.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "539",
@@ -6725,7 +10255,11 @@ export const GAME_DATA = {
         "color_black"
       ],
       "icon": "/game/items/539.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "547",
@@ -6741,7 +10275,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/547.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "573",
@@ -6757,7 +10295,11 @@ export const GAME_DATA = {
         "color_copper"
       ],
       "icon": "/game/items/573.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "546",
@@ -6773,7 +10315,11 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/546.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "569",
@@ -6789,7 +10335,11 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/569.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "558",
@@ -6805,7 +10355,11 @@ export const GAME_DATA = {
         "color_dark_purple"
       ],
       "icon": "/game/items/558.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "548",
@@ -6821,7 +10375,11 @@ export const GAME_DATA = {
         "color_lime"
       ],
       "icon": "/game/items/548.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "543",
@@ -6837,7 +10395,11 @@ export const GAME_DATA = {
         "color_pink"
       ],
       "icon": "/game/items/543.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "84",
@@ -6853,7 +10415,50 @@ export const GAME_DATA = {
         "color_cyan"
       ],
       "icon": "/game/items/84.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Геологический узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Кольцо воина",
+          "amount": 10,
+          "icon": "/game/items/521.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        },
+        {
+          "villager": "Эллиот",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Elliott.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Себастиан",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sebastian.png"
+        },
+        {
+          "villager": "Волшебник",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Wizard.png"
+        }
+      ]
     },
     {
       "id": "578",
@@ -6869,7 +10474,11 @@ export const GAME_DATA = {
         "color_pink"
       ],
       "icon": "/game/items/578.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "86",
@@ -6885,7 +10494,35 @@ export const GAME_DATA = {
         "color_copper"
       ],
       "icon": "/game/items/86.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Геологический узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "MayonnaiseMachine_Name",
+          "amount": 1,
+          "icon": "/game/craftables/24.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        }
+      ]
     },
     {
       "id": "571",
@@ -6901,7 +10538,11 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/571.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "60",
@@ -6917,7 +10558,52 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/60.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Дварф",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Dwarf.png"
+        },
+        {
+          "villager": "Эллиот",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Elliott.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Пенни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Penny.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "542",
@@ -6933,7 +10619,11 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/542.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "577",
@@ -6949,7 +10639,11 @@ export const GAME_DATA = {
         "color_purple"
       ],
       "icon": "/game/items/577.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "80",
@@ -6965,7 +10659,23 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/80.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Геологический узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Elliott.png"
+        }
+      ]
     },
     {
       "id": "550",
@@ -6981,7 +10691,11 @@ export const GAME_DATA = {
         "color_dark_blue"
       ],
       "icon": "/game/items/550.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "554",
@@ -6997,7 +10711,17 @@ export const GAME_DATA = {
         "color_orange"
       ],
       "icon": "/game/items/554.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "551",
@@ -7014,7 +10738,11 @@ export const GAME_DATA = {
         "dye_strong"
       ],
       "icon": "/game/items/551.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "552",
@@ -7030,7 +10758,11 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/552.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "567",
@@ -7046,7 +10778,18 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/567.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "MarbleBrazier_Name",
+          "amount": 1,
+          "icon": "/game/craftables/151.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "555",
@@ -7062,7 +10805,11 @@ export const GAME_DATA = {
         "color_pink"
       ],
       "icon": "/game/items/555.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "553",
@@ -7078,7 +10825,11 @@ export const GAME_DATA = {
         "color_black"
       ],
       "icon": "/game/items/553.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "70",
@@ -7094,7 +10845,47 @@ export const GAME_DATA = {
         "color_jade"
       ],
       "icon": "/game/items/70.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Дварф",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Dwarf.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Maru.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "575",
@@ -7110,7 +10901,17 @@ export const GAME_DATA = {
         "color_black"
       ],
       "icon": "/game/items/575.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Себастиан",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sebastian.png"
+        }
+      ]
     },
     {
       "id": "82",
@@ -7126,7 +10927,51 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/82.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Геологический узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Dehydrator_Name",
+          "amount": 1,
+          "icon": "/game/craftables/Dehydrator.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "SlimeEggPress_Name",
+          "amount": 1,
+          "icon": "/game/craftables/158.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        },
+        {
+          "villager": "Эллиот",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Elliott.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Волшебник",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Wizard.png"
+        }
+      ]
     },
     {
       "id": "565",
@@ -7142,7 +10987,11 @@ export const GAME_DATA = {
         "color_dark_purple"
       ],
       "icon": "/game/items/565.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "557",
@@ -7159,7 +11008,11 @@ export const GAME_DATA = {
         "slime_item"
       ],
       "icon": "/game/items/557.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "560",
@@ -7175,7 +11028,11 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/560.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "564",
@@ -7191,7 +11048,11 @@ export const GAME_DATA = {
         "color_light_cyan"
       ],
       "icon": "/game/items/564.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "556",
@@ -7207,7 +11068,11 @@ export const GAME_DATA = {
         "color_orange"
       ],
       "icon": "/game/items/556.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "568",
@@ -7223,7 +11088,11 @@ export const GAME_DATA = {
         "color_sand"
       ],
       "icon": "/game/items/568.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "559",
@@ -7239,7 +11108,11 @@ export const GAME_DATA = {
         "color_gold"
       ],
       "icon": "/game/items/559.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "561",
@@ -7255,7 +11128,11 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/561.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "74",
@@ -7272,7 +11149,24 @@ export const GAME_DATA = {
         "crystalarium_banned"
       ],
       "icon": "/game/items/74.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Заброшенный ДжоджаМарт",
+          "bundle": "Пропавший узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Обручальное кольцо",
+          "amount": 1,
+          "icon": "/game/items/801.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "64",
@@ -7288,7 +11182,47 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/64.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Дварф",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Dwarf.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Maru.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "576",
@@ -7304,7 +11238,11 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/576.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "572",
@@ -7320,7 +11258,11 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/572.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "562",
@@ -7336,7 +11278,17 @@ export const GAME_DATA = {
         "color_orange"
       ],
       "icon": "/game/items/562.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Сэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sam.png"
+        }
+      ]
     },
     {
       "id": "68",
@@ -7352,7 +11304,32 @@ export const GAME_DATA = {
         "color_gold"
       ],
       "icon": "/game/items/68.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Клинт",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Clint.png"
+        },
+        {
+          "villager": "Дварф",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Dwarf.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "545",
@@ -7368,7 +11345,11 @@ export const GAME_DATA = {
         "color_purple"
       ],
       "icon": "/game/items/545.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "566",
@@ -7384,7 +11365,11 @@ export const GAME_DATA = {
         "color_iron"
       ],
       "icon": "/game/items/566.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "541",
@@ -7400,7 +11385,11 @@ export const GAME_DATA = {
         "color_cyan"
       ],
       "icon": "/game/items/541.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "544",
@@ -7416,7 +11405,11 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/544.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "549",
@@ -7432,7 +11425,11 @@ export const GAME_DATA = {
         "color_gold"
       ],
       "icon": "/game/items/549.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "563",
@@ -7448,7 +11445,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/563.png",
-      "categoryName": "Минерал"
+      "categoryName": "Минерал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "186",
@@ -7468,7 +11469,17 @@ export const GAME_DATA = {
         "milk_item"
       ],
       "icon": "/game/items/186.png",
-      "categoryName": "Молоко"
+      "categoryName": "Молоко",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Животноводческий узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "438",
@@ -7487,7 +11498,28 @@ export const GAME_DATA = {
         "milk_item"
       ],
       "icon": "/game/items/438.png",
-      "categoryName": "Молоко"
+      "categoryName": "Молоко",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Животноводческий узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Харви",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Harvey.png"
+        },
+        {
+          "villager": "Сэнди",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sandy.png"
+        }
+      ]
     },
     {
       "id": "436",
@@ -7505,7 +11537,22 @@ export const GAME_DATA = {
         "milk_item"
       ],
       "icon": "/game/items/436.png",
-      "categoryName": "Молоко"
+      "categoryName": "Молоко",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Харви",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Harvey.png"
+        },
+        {
+          "villager": "Сэнди",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sandy.png"
+        }
+      ]
     },
     {
       "id": "184",
@@ -7524,7 +11571,11 @@ export const GAME_DATA = {
         "milk_item"
       ],
       "icon": "/game/items/184.png",
-      "categoryName": "Молоко"
+      "categoryName": "Молоко",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "908",
@@ -7538,7 +11589,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/908.png",
-      "categoryName": "Наживка"
+      "categoryName": "Наживка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "774",
@@ -7552,7 +11607,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/774.png",
-      "categoryName": "Наживка"
+      "categoryName": "Наживка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "703",
@@ -7566,7 +11625,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/703.png",
-      "categoryName": "Наживка"
+      "categoryName": "Наживка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "685",
@@ -7582,7 +11645,18 @@ export const GAME_DATA = {
         "color_pink"
       ],
       "icon": "/game/items/685.png",
-      "categoryName": "Наживка"
+      "categoryName": "Наживка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Элитная наживка",
+          "amount": 5,
+          "icon": "/game/items/DeluxeBait.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "SpecificBait",
@@ -7598,7 +11672,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/SpecificBait.png",
-      "categoryName": "Наживка"
+      "categoryName": "Наживка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "ChallengeBait",
@@ -7612,7 +11690,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/ChallengeBait.png",
-      "categoryName": "Наживка"
+      "categoryName": "Наживка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "DeluxeBait",
@@ -7626,7 +11708,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/DeluxeBait.png",
-      "categoryName": "Наживка"
+      "categoryName": "Наживка",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "930",
@@ -7640,7 +11726,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/930.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "809",
@@ -7654,7 +11744,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/809.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "458",
@@ -7670,7 +11764,11 @@ export const GAME_DATA = {
         "color_pink"
       ],
       "icon": "/game/items/458.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "441",
@@ -7686,7 +11784,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/441.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "872",
@@ -7700,7 +11802,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/872.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "852",
@@ -7716,7 +11822,30 @@ export const GAME_DATA = {
         "color_orange"
       ],
       "icon": "/game/items/852.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "MiniForge_Name",
+          "amount": 5,
+          "icon": "/game/craftables/MiniForge.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Остров",
+          "amount": 1,
+          "icon": "/game/items/886.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Лео",
+          "taste": "Любит",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "30",
@@ -7733,7 +11862,11 @@ export const GAME_DATA = {
         "wood_item"
       ],
       "icon": "/game/items/30.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "275",
@@ -7749,7 +11882,11 @@ export const GAME_DATA = {
         "geode_crusher_ignored"
       ],
       "icon": "/game/items/275.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "797",
@@ -7765,7 +11902,11 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/797.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "535",
@@ -7781,7 +11922,11 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/535.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "MysteryBox",
@@ -7800,7 +11945,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/MysteryBox.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "826",
@@ -7818,7 +11967,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/826.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "825",
@@ -7836,7 +11989,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/825.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "GoldenMysteryBox",
@@ -7855,7 +12012,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/GoldenMysteryBox.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "GoldCoin",
@@ -7869,7 +12030,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/GoldCoin.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "373",
@@ -7885,7 +12050,11 @@ export const GAME_DATA = {
         "color_gold"
       ],
       "icon": "/game/items/373.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "73",
@@ -7899,7 +12068,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/73.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "TroutDerbyTag",
@@ -7913,7 +12086,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/TroutDerbyTag.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "812",
@@ -7930,7 +12107,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/812.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "803",
@@ -7946,7 +12127,11 @@ export const GAME_DATA = {
         "color_iridium"
       ],
       "icon": "/game/items/803.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "FarAwayStone",
@@ -7960,7 +12145,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/FarAwayStone.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "393",
@@ -7978,7 +12167,24 @@ export const GAME_DATA = {
         "forage_item_beach"
       ],
       "icon": "/game/items/393.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "BaitMaker_Name",
+          "amount": 3,
+          "icon": "/game/craftables/BaitMaker.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Пляж",
+          "amount": 2,
+          "icon": "/game/items/690.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "460",
@@ -7992,7 +12198,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/460.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "808",
@@ -8008,7 +12218,11 @@ export const GAME_DATA = {
         "propose_roommate_krobus"
       ],
       "icon": "/game/items/808.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "PetLicense",
@@ -8022,7 +12236,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/PetLicense.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "537",
@@ -8038,7 +12256,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/537.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "247",
@@ -8054,7 +12276,78 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/247.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Жареный кальмар",
+          "amount": 1,
+          "icon": "/game/items/202.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Жареные грибы",
+          "amount": 1,
+          "icon": "/game/items/205.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Хашбраун",
+          "amount": 1,
+          "icon": "/game/items/210.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Окунь с хрустящей корочкой",
+          "amount": 1,
+          "icon": "/game/items/214.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Жареный угорь",
+          "amount": 1,
+          "icon": "/game/items/225.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Стир-фрай",
+          "amount": 1,
+          "icon": "/game/items/606.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Салат из редиса",
+          "amount": 1,
+          "icon": "/game/items/609.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Брускетта",
+          "amount": 1,
+          "icon": "/game/items/618.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Ризотто с папоротником",
+          "amount": 1,
+          "icon": "/game/items/649.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Крабовые котлетки",
+          "amount": 1,
+          "icon": "/game/items/732.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Чесночное масло",
+          "amount": 1,
+          "icon": "/game/items/772.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "536",
@@ -8070,7 +12363,17 @@ export const GAME_DATA = {
         "color_cyan"
       ],
       "icon": "/game/items/536.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Исследовательский узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "397",
@@ -8088,7 +12391,30 @@ export const GAME_DATA = {
         "forage_item_beach"
       ],
       "icon": "/game/items/397.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Красочный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "BaitMaker_Name",
+          "amount": 1,
+          "icon": "/game/craftables/BaitMaker.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Лео",
+          "taste": "Любит",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "827",
@@ -8106,7 +12432,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/827.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "828",
@@ -8124,7 +12454,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/828.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "915",
@@ -8138,7 +12472,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/915.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "913",
@@ -8152,7 +12490,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/913.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "823",
@@ -8170,7 +12512,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/823.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "824",
@@ -8188,7 +12534,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/824.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "821",
@@ -8206,7 +12556,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/821.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "822",
@@ -8224,7 +12578,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/822.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "820",
@@ -8242,7 +12600,11 @@ export const GAME_DATA = {
         "prehistoric_item"
       ],
       "icon": "/game/items/820.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "749",
@@ -8258,7 +12620,17 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/749.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "PrizeTicket",
@@ -8274,7 +12646,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/PrizeTicket.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "917",
@@ -8288,7 +12664,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/917.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "246",
@@ -8304,7 +12684,84 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/246.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Запеченная рыба",
+          "amount": 1,
+          "icon": "/game/items/198.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Жареный кальмар",
+          "amount": 1,
+          "icon": "/game/items/202.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Странная булочка",
+          "amount": 1,
+          "icon": "/game/items/203.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Пицца",
+          "amount": 1,
+          "icon": "/game/items/206.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Блины",
+          "amount": 1,
+          "icon": "/game/items/211.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Окунь с хрустящей корочкой",
+          "amount": 1,
+          "icon": "/game/items/214.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Хлеб",
+          "amount": 1,
+          "icon": "/game/items/216.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Шоколадный торт",
+          "amount": 1,
+          "icon": "/game/items/220.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Розовый торт",
+          "amount": 1,
+          "icon": "/game/items/221.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Пирог с ревенем",
+          "amount": 1,
+          "icon": "/game/items/222.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Печенье",
+          "amount": 1,
+          "icon": "/game/items/223.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Спагетти",
+          "amount": 1,
+          "icon": "/game/items/224.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "ButterflyPowder",
@@ -8320,7 +12777,11 @@ export const GAME_DATA = {
         "color_blue"
       ],
       "icon": "/game/items/ButterflyPowder.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "394",
@@ -8339,7 +12800,17 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/394.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "Лето; пляж; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Лео",
+          "taste": "Любит",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "392",
@@ -8359,7 +12830,23 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/392.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "Зима; пляж; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Исследовательский узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Лео",
+          "taste": "Любит",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "423",
@@ -8375,7 +12862,30 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/423.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Суши-роллы",
+          "amount": 1,
+          "icon": "/game/items/228.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Рисовый пудинг",
+          "amount": 1,
+          "icon": "/game/items/232.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Манговый клейкий рис",
+          "amount": 1,
+          "icon": "/game/items/905.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "858",
@@ -8389,7 +12899,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/858.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "245",
@@ -8406,7 +12920,84 @@ export const GAME_DATA = {
         "food_sweet"
       ],
       "icon": "/game/items/245.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Глазированный батат",
+          "amount": 1,
+          "icon": "/game/items/208.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Шоколадный торт",
+          "amount": 1,
+          "icon": "/game/items/220.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Розовый торт",
+          "amount": 1,
+          "icon": "/game/items/221.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Пирог с ревенем",
+          "amount": 1,
+          "icon": "/game/items/222.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Печенье",
+          "amount": 1,
+          "icon": "/game/items/223.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Рисовый пудинг",
+          "amount": 1,
+          "icon": "/game/items/232.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Мороженое",
+          "amount": 1,
+          "icon": "/game/items/233.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Черничный тарт",
+          "amount": 1,
+          "icon": "/game/items/234.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Клюквенный соус",
+          "amount": 1,
+          "icon": "/game/items/238.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "«Шахтерский леденец»",
+          "amount": 1,
+          "icon": "/game/items/243.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Сливовый пудинг",
+          "amount": 1,
+          "icon": "/game/items/604.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Тыквенный пирог",
+          "amount": 1,
+          "icon": "/game/items/608.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "178",
@@ -8422,7 +13013,17 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/178.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Кормовой узелок",
+          "amount": 10
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "417",
@@ -8438,7 +13039,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/417.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "Осень; растет 24 дн.; Поздняя игра",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "166",
@@ -8454,7 +13059,11 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/166.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "430",
@@ -8470,7 +13079,28 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/430.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Поварской узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Гас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Gus.png"
+        },
+        {
+          "villager": "Лея",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Leah.png"
+        }
+      ]
     },
     {
       "id": "277",
@@ -8484,7 +13114,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/277.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "419",
@@ -8501,7 +13135,36 @@ export const GAME_DATA = {
         "placeable"
       ],
       "icon": "/game/items/419.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Салат",
+          "amount": 1,
+          "icon": "/game/items/196.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Суп из пастернака",
+          "amount": 1,
+          "icon": "/game/items/199.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Салат из редиса",
+          "amount": 1,
+          "icon": "/game/items/609.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Капустный салат",
+          "amount": 1,
+          "icon": "/game/items/648.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "StardropTea",
@@ -8517,7 +13180,11 @@ export const GAME_DATA = {
         "color_iridium"
       ],
       "icon": "/game/items/StardropTea.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "814",
@@ -8533,7 +13200,30 @@ export const GAME_DATA = {
         "color_black"
       ],
       "icon": "/game/items/814.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Морской пенный пудинг",
+          "amount": 1,
+          "icon": "/game/items/265.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Равиоли с чернилами кальмара",
+          "amount": 1,
+          "icon": "/game/items/921.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Elliott.png"
+        }
+      ]
     },
     {
       "id": "CalicoEgg",
@@ -8547,7 +13237,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/CalicoEgg.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "680",
@@ -8566,7 +13260,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/680.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "437",
@@ -8585,7 +13283,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/437.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "413",
@@ -8604,7 +13306,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/413.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "857",
@@ -8623,7 +13329,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/857.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "439",
@@ -8642,7 +13352,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/439.png",
-      "categoryName": "Предметы"
+      "categoryName": "Предметы",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "287",
@@ -8659,7 +13373,11 @@ export const GAME_DATA = {
         "color_black"
       ],
       "icon": "/game/items/287.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "286",
@@ -8676,7 +13394,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/286.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "621",
@@ -8690,7 +13412,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/621.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "322",
@@ -8704,7 +13430,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/322.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "324",
@@ -8718,7 +13448,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/324.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "929",
@@ -8732,7 +13466,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/929.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "298",
@@ -8746,7 +13484,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/298.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "645",
@@ -8760,7 +13502,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/645.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "325",
@@ -8774,7 +13520,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/325.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "323",
@@ -8788,7 +13538,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/323.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "288",
@@ -8805,7 +13559,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/288.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "326",
@@ -8819,7 +13577,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/326.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "599",
@@ -8833,7 +13595,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/599.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "895",
@@ -8849,7 +13615,11 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/895.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "893",
@@ -8865,7 +13635,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/893.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "894",
@@ -8881,7 +13655,11 @@ export const GAME_DATA = {
         "color_purple"
       ],
       "icon": "/game/items/894.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "746",
@@ -8897,7 +13675,11 @@ export const GAME_DATA = {
         "color_orange"
       ],
       "icon": "/game/items/746.png",
-      "categoryName": "Ремесло"
+      "categoryName": "Ремесло",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "705",
@@ -8917,7 +13699,11 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/705.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Осень, Зима; любая; секретные воды",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "129",
@@ -8938,7 +13724,11 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/129.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Осень; любая; горное озеро",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "159",
@@ -8956,7 +13746,11 @@ export const GAME_DATA = {
         "fish_legendary"
       ],
       "icon": "/game/items/159.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето; любая; океан, восточный пирс",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "146",
@@ -8976,7 +13770,11 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/146.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето, Зима; любая; городская река",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "157",
@@ -8995,7 +13793,18 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/157.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; особая точка",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Светлый бульон",
+          "amount": 2,
+          "icon": "/game/items/457.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "150",
@@ -9016,7 +13825,17 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/150.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето, Осень, Зима; дождь; горное озеро",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Океанский узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "136",
@@ -9035,7 +13854,24 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/136.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; секретные воды",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Озерный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Окунь с хрустящей корочкой",
+          "amount": 1,
+          "icon": "/game/items/214.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "Goby",
@@ -9056,7 +13892,11 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/Goby.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень; любая; лесной пруд",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "702",
@@ -9076,7 +13916,17 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/702.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; лесной пруд",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Исследовательский узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "838",
@@ -9095,7 +13945,11 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/838.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; реки и пруды острова",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "372",
@@ -9118,7 +13972,24 @@ export const GAME_DATA = {
         "forage_item_beach"
       ],
       "icon": "/game/items/372.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; ocean",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Рыбная похлебка",
+          "amount": 1,
+          "icon": "/game/items/727.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "704",
@@ -9138,7 +14009,11 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/704.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето; любая; глубокая вода, лесная река",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "140",
@@ -9160,7 +14035,17 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/140.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Осень, Зима; дождь; городская река",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Узелок ночной рыбалки",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "799",
@@ -9179,7 +14064,11 @@ export const GAME_DATA = {
         "fish_semi_rare"
       ],
       "icon": "/game/items/799.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; секретные воды",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "153",
@@ -9198,7 +14087,24 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/153.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; особая точка",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Уха из форели",
+          "amount": 1,
+          "icon": "/game/items/219.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Суп из водорослей",
+          "amount": 4,
+          "icon": "/game/items/456.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "707",
@@ -9219,7 +14125,17 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/707.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Зима; любая; особое место, секретные воды",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "128",
@@ -9239,7 +14155,23 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/128.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето; солнце; особое место, секретные воды",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Узелок особого улова",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Абигейл",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Abigail.png"
+        }
+      ]
     },
     {
       "id": "151",
@@ -9259,7 +14191,24 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/151.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Зима; любая; городская река, особое место",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Жареный кальмар",
+          "amount": 1,
+          "icon": "/game/items/202.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Elliott.png"
+        }
+      ]
     },
     {
       "id": "267",
@@ -9279,7 +14228,24 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/267.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето; любая; городская река",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Морской пенный пудинг",
+          "amount": 1,
+          "icon": "/game/items/265.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Себастиан",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sebastian.png"
+        }
+      ]
     },
     {
       "id": "142",
@@ -9302,7 +14268,24 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/142.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень; любая; горное озеро",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Озерный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Карповый сюрприз",
+          "amount": 4,
+          "icon": "/game/items/209.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "682",
@@ -9320,7 +14303,11 @@ export const GAME_DATA = {
         "fish_legendary"
       ],
       "icon": "/game/items/682.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; легендарная точка",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "717",
@@ -9340,7 +14327,24 @@ export const GAME_DATA = {
         "fish_upright"
       ],
       "icon": "/game/items/717.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; ocean",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Крабовые котлетки",
+          "amount": 1,
+          "icon": "/game/items/732.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "720",
@@ -9360,7 +14364,30 @@ export const GAME_DATA = {
         "fish_upright"
       ],
       "icon": "/game/items/720.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; ocean",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Суп том кха",
+          "amount": 1,
+          "icon": "/game/items/218.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Креветочный коктейль",
+          "amount": 1,
+          "icon": "/game/items/733.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "837",
@@ -9380,7 +14407,11 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/837.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; океан острова",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "162",
@@ -9401,7 +14432,17 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/162.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; лесной пруд",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "163",
@@ -9419,7 +14460,11 @@ export const GAME_DATA = {
         "fish_legendary"
       ],
       "icon": "/game/items/163.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна; дождь; горное озеро",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "900",
@@ -9438,7 +14483,11 @@ export const GAME_DATA = {
         "fish_legendary_family"
       ],
       "icon": "/game/items/900.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна; дождь; горное озеро",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "161",
@@ -9459,7 +14508,11 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/161.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; горное озеро",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "775",
@@ -9478,7 +14531,11 @@ export const GAME_DATA = {
         "fish_upright"
       ],
       "icon": "/game/items/775.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Зима; любая; Синдерсепский лес",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "902",
@@ -9497,7 +14554,11 @@ export const GAME_DATA = {
         "fish_legendary_family"
       ],
       "icon": "/game/items/902.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Зима; любая; Синдерсепский лес",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "734",
@@ -9517,7 +14578,17 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/734.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; секретные воды",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Узелок особого улова",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "132",
@@ -9536,7 +14607,24 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/132.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; лесной пруд",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Узелок ночной рыбалки",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Запеченная рыба",
+          "amount": 1,
+          "icon": "/game/items/198.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "722",
@@ -9556,7 +14644,30 @@ export const GAME_DATA = {
         "fish_upright"
       ],
       "icon": "/game/items/722.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; freshwater",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Странная булочка",
+          "amount": 1,
+          "icon": "/game/items/203.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Уха",
+          "amount": 1,
+          "icon": "/game/items/728.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "139",
@@ -9575,7 +14686,18 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/139.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Осень; любая; лесной пруд",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Ужин из лосося",
+          "amount": 1,
+          "icon": "/game/items/212.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "795",
@@ -9596,7 +14718,17 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/795.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; секретные воды",
+      "usedInBundles": [
+        {
+          "room": "Заброшенный ДжоджаМарт",
+          "bundle": "Пропавший узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "898",
@@ -9615,7 +14747,11 @@ export const GAME_DATA = {
         "fish_legendary_family"
       ],
       "icon": "/game/items/898.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето; любая; океан, восточный пирс",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "137",
@@ -9636,7 +14772,11 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/137.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Осень; любая; горное озеро",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "719",
@@ -9657,7 +14797,24 @@ export const GAME_DATA = {
         "forage_item_beach"
       ],
       "icon": "/game/items/719.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; ocean",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Уха",
+          "amount": 1,
+          "icon": "/game/items/728.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "899",
@@ -9677,7 +14834,11 @@ export const GAME_DATA = {
         "fish_upright"
       ],
       "icon": "/game/items/899.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Осень; любая; север города",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "152",
@@ -9694,7 +14855,18 @@ export const GAME_DATA = {
         "fish_nonfish"
       ],
       "icon": "/game/items/152.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; особая точка",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Суши-роллы",
+          "amount": 1,
+          "icon": "/game/items/228.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "SeaJelly",
@@ -9713,7 +14885,18 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/SeaJelly.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "FishSmoker_Name",
+          "amount": 1,
+          "icon": "/game/craftables/FishSmoker.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "154",
@@ -9734,7 +14917,24 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/154.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Осень, Зима; любая; глубокая вода, океан",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Обед на удачу",
+          "amount": 1,
+          "icon": "/game/items/204.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "160",
@@ -9753,7 +14953,11 @@ export const GAME_DATA = {
         "fish_upright"
       ],
       "icon": "/game/items/160.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Осень; любая; север города",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "798",
@@ -9774,7 +14978,11 @@ export const GAME_DATA = {
         "fish_upright"
       ],
       "icon": "/game/items/798.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; секретные воды",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "141",
@@ -9795,7 +15003,11 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/141.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Зима; любая; океан",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "715",
@@ -9814,7 +15026,30 @@ export const GAME_DATA = {
         "fish_ocean"
       ],
       "icon": "/game/items/715.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; ocean",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Биск из омара",
+          "amount": 1,
+          "icon": "/game/items/730.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Elliott.png"
+        }
+      ]
     },
     {
       "id": "698",
@@ -9834,7 +15069,23 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/698.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето, Зима; любая; глубокая вода, горное озеро",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Озерный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "149",
@@ -9854,7 +15105,22 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/149.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето; любая; легендарная точка, лесной пруд",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Elliott.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "708",
@@ -9875,7 +15141,11 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/708.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Зима; любая; лесная река",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "164",
@@ -9894,7 +15164,23 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/164.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; пустыня",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Узелок особого улова",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Пенни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Penny.png"
+        }
+      ]
     },
     {
       "id": "CaveJelly",
@@ -9913,7 +15199,18 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/CaveJelly.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "FishSmoker_Name",
+          "amount": 1,
+          "icon": "/game/craftables/FishSmoker.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "269",
@@ -9933,7 +15230,18 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/269.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Осень, Зима; любая; горное озеро",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Морской пенный пудинг",
+          "amount": 1,
+          "icon": "/game/items/265.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "156",
@@ -9952,7 +15260,17 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/156.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; лесной пруд",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Узелок особого улова",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "901",
@@ -9971,7 +15289,11 @@ export const GAME_DATA = {
         "fish_legendary_family"
       ],
       "icon": "/game/items/901.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; канализация",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "138",
@@ -9990,7 +15312,18 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/138.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето; солнце; лесной пруд",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Уха из форели",
+          "amount": 1,
+          "icon": "/game/items/219.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "716",
@@ -10009,7 +15342,24 @@ export const GAME_DATA = {
         "fish_has_roe"
       ],
       "icon": "/game/items/716.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; freshwater",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Уха",
+          "amount": 1,
+          "icon": "/game/items/728.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "RiverJelly",
@@ -10028,7 +15378,18 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/RiverJelly.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "FishSmoker_Name",
+          "amount": 1,
+          "icon": "/game/craftables/FishSmoker.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "158",
@@ -10049,7 +15410,11 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/158.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; глубокая вода",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "800",
@@ -10068,7 +15433,11 @@ export const GAME_DATA = {
         "fish_upright"
       ],
       "icon": "/game/items/800.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; секретные воды",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "131",
@@ -10090,7 +15459,24 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/131.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; океан",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Океанский узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "«Морское блюдо»",
+          "amount": 2,
+          "icon": "/game/items/242.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "147",
@@ -10111,7 +15497,11 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/147.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Зима; любая; секретные воды",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "718",
@@ -10132,7 +15522,17 @@ export const GAME_DATA = {
         "forage_item_beach"
       ],
       "icon": "/game/items/718.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; ocean",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "836",
@@ -10152,7 +15552,11 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/836.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; пиратская бухта",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "165",
@@ -10172,7 +15576,11 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/165.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; пустыня",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "796",
@@ -10192,7 +15600,11 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/796.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; секретные воды",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "145",
@@ -10212,7 +15624,24 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/145.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето; солнце; океан",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Речной узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Запеченная рыба",
+          "amount": 1,
+          "icon": "/game/items/198.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "143",
@@ -10235,7 +15664,23 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/143.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Осень, Зима; дождь; глубокая вода, городская река",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Речной узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "700",
@@ -10254,7 +15699,17 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/700.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; лесная река",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Озерный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "699",
@@ -10274,7 +15729,23 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/699.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; легендарная точка, секретные воды",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Речной узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "701",
@@ -10294,7 +15765,17 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/701.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето, Осень; любая; океан",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Океанский узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "130",
@@ -10314,7 +15795,24 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/130.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето, Зима; любая; глубокая вода, лесная река",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Океанский узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Рыбное тако",
+          "amount": 1,
+          "icon": "/game/items/213.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "148",
@@ -10336,7 +15834,30 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/148.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Осень; дождь; глубокая вода, городская река",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Узелок ночной рыбалки",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Жареный угорь",
+          "amount": 1,
+          "icon": "/game/items/225.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Острый угорь",
+          "amount": 1,
+          "icon": "/game/items/226.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "721",
@@ -10356,7 +15877,30 @@ export const GAME_DATA = {
         "fish_upright"
       ],
       "icon": "/game/items/721.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; freshwater",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Эскарго",
+          "amount": 1,
+          "icon": "/game/items/729.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Винсент",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "723",
@@ -10378,7 +15922,17 @@ export const GAME_DATA = {
         "forage_item_beach"
       ],
       "icon": "/game/items/723.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень, Зима; любая; ocean",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Краболовный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "155",
@@ -10399,7 +15953,17 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/155.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето, Зима; любая; глубокая вода, океан",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Волшебник",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Wizard.png"
+        }
+      ]
     },
     {
       "id": "706",
@@ -10420,7 +15984,17 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/706.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Весна, Лето, Осень; дождь; лесной пруд",
+      "usedInBundles": [
+        {
+          "room": "Аквариум",
+          "bundle": "Речной узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "144",
@@ -10442,7 +16016,11 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/144.png",
-      "categoryName": "Рыба"
+      "categoryName": "Рыба",
+      "availability": "Лето, Зима; любая; лесная река, особое место",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "890",
@@ -10458,7 +16036,11 @@ export const GAME_DATA = {
         "color_blue"
       ],
       "icon": "/game/items/890.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "495",
@@ -10472,7 +16054,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/495.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "301",
@@ -10486,7 +16072,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/301.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "499",
@@ -10500,7 +16090,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/499.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "309",
@@ -10517,7 +16111,24 @@ export const GAME_DATA = {
         "tree_seed_item"
       ],
       "icon": "/game/items/309.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Семя таинственного дерева",
+          "amount": 5,
+          "icon": "/game/items/MysticTreeSeed.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Полевая закуска",
+          "amount": 1,
+          "icon": "/game/items/403.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "498",
@@ -10531,7 +16142,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/498.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "310",
@@ -10548,7 +16163,24 @@ export const GAME_DATA = {
         "tree_seed_item"
       ],
       "icon": "/game/items/310.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Семя таинственного дерева",
+          "amount": 5,
+          "icon": "/game/items/MysticTreeSeed.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Полевая закуска",
+          "amount": 1,
+          "icon": "/game/items/403.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "831",
@@ -10562,7 +16194,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/831.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "433",
@@ -10579,7 +16215,11 @@ export const GAME_DATA = {
         "seedmaker_banned"
       ],
       "icon": "/game/items/433.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "Весна, Лето; растет 10 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "496",
@@ -10593,7 +16233,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/496.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "427",
@@ -10607,7 +16251,18 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/427.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "TuboFlowers_Name",
+          "amount": 1,
+          "icon": "/game/craftables/108.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "MossySeed",
@@ -10621,7 +16276,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/MossySeed.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "497",
@@ -10635,7 +16294,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/497.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "473",
@@ -10649,7 +16312,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/473.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "302",
@@ -10663,7 +16330,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/302.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "347",
@@ -10677,7 +16348,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/347.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "273",
@@ -10691,7 +16366,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/273.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "629",
@@ -10705,7 +16384,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/629.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "630",
@@ -10719,7 +16402,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/630.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "69",
@@ -10733,7 +16420,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/69.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "628",
@@ -10747,7 +16438,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/628.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "632",
@@ -10761,7 +16456,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/632.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "835",
@@ -10775,7 +16474,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/835.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "631",
@@ -10789,7 +16492,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/631.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "251",
@@ -10803,7 +16510,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/251.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "633",
@@ -10817,7 +16528,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/633.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "299",
@@ -10831,7 +16546,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/299.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "833",
@@ -10845,7 +16564,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/833.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "489",
@@ -10859,7 +16582,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/489.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "488",
@@ -10873,7 +16600,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/488.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "492",
@@ -10887,7 +16618,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/492.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "455",
@@ -10901,7 +16636,18 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/455.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "TuboFlowers_Name",
+          "amount": 1,
+          "icon": "/game/craftables/108.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "491",
@@ -10915,7 +16661,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/491.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "BroccoliSeeds",
@@ -10931,7 +16681,11 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/BroccoliSeeds.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "885",
@@ -10945,7 +16699,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/885.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "479",
@@ -10959,7 +16717,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/479.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "802",
@@ -10973,7 +16735,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/802.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "486",
@@ -10987,7 +16753,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/486.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "475",
@@ -11001,7 +16771,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/475.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "745",
@@ -11015,7 +16789,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/745.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "493",
@@ -11029,7 +16807,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/493.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "485",
@@ -11043,7 +16825,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/485.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "477",
@@ -11057,7 +16843,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/477.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "487",
@@ -11071,7 +16861,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/487.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "453",
@@ -11085,7 +16879,18 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/453.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "TuboFlowers_Name",
+          "amount": 1,
+          "icon": "/game/craftables/108.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "CarrotSeeds",
@@ -11101,7 +16906,11 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/CarrotSeeds.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "472",
@@ -11115,7 +16924,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/472.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "482",
@@ -11129,7 +16942,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/482.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "431",
@@ -11143,7 +16960,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/431.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "480",
@@ -11157,7 +16978,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/480.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "483",
@@ -11171,7 +16996,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/483.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "478",
@@ -11185,7 +17014,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/478.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "484",
@@ -11199,7 +17032,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/484.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "494",
@@ -11213,7 +17050,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/494.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "SummerSquashSeeds",
@@ -11229,7 +17070,11 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/SummerSquashSeeds.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "PowdermelonSeeds",
@@ -11245,7 +17090,11 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/PowdermelonSeeds.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "490",
@@ -11259,7 +17108,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/490.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "474",
@@ -11273,7 +17126,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/474.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "481",
@@ -11287,7 +17144,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/481.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "476",
@@ -11301,7 +17162,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/476.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "429",
@@ -11315,7 +17180,18 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/429.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "TuboFlowers_Name",
+          "amount": 1,
+          "icon": "/game/craftables/108.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "891",
@@ -11331,7 +17207,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/891.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "292",
@@ -11348,7 +17228,18 @@ export const GAME_DATA = {
         "tree_seed_item"
       ],
       "icon": "/game/items/292.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Семя таинственного дерева",
+          "amount": 5,
+          "icon": "/game/items/MysticTreeSeed.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "MysticTreeSeed",
@@ -11362,7 +17253,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/MysticTreeSeed.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "425",
@@ -11376,7 +17271,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/425.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "770",
@@ -11390,7 +17289,18 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/770.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Семена волокон",
+          "amount": 1,
+          "icon": "/game/items/885.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "MixedFlowerSeeds",
@@ -11404,7 +17314,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/MixedFlowerSeeds.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "311",
@@ -11421,7 +17335,24 @@ export const GAME_DATA = {
         "tree_seed_item"
       ],
       "icon": "/game/items/311.png",
-      "categoryName": "Семена"
+      "categoryName": "Семена",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Семя таинственного дерева",
+          "amount": 5,
+          "icon": "/game/items/MysticTreeSeed.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Полевая закуска",
+          "amount": 1,
+          "icon": "/game/items/403.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "693",
@@ -11435,7 +17366,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/693.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "877",
@@ -11449,7 +17384,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/877.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "856",
@@ -11463,7 +17402,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/856.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "691",
@@ -11477,7 +17420,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/691.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "694",
@@ -11491,7 +17438,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/694.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "695",
@@ -11505,7 +17456,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/695.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "692",
@@ -11519,7 +17474,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/692.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "SonarBobber",
@@ -11535,7 +17494,11 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/SonarBobber.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "686",
@@ -11549,7 +17512,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/686.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "687",
@@ -11563,7 +17530,11 @@ export const GAME_DATA = {
       "texture": null,
       "tags": [],
       "icon": "/game/items/687.png",
-      "categoryName": "Снасть"
+      "categoryName": "Снасть",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "16",
@@ -11581,7 +17552,41 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/16.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Весна; весенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок весенних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Креветочный коктейль",
+          "amount": 1,
+          "icon": "/game/items/733.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Весенние семена",
+          "amount": 1,
+          "icon": "/game/items/495.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Кэролайн",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Caroline.png"
+        },
+        {
+          "villager": "Кробус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Krobus.png"
+        }
+      ]
     },
     {
       "id": "92",
@@ -11597,7 +17602,60 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/92.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Факел",
+          "amount": 2,
+          "icon": "/game/items/93.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Обычное удобрение",
+          "amount": 2,
+          "icon": "/game/items/368.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Высококачественное удобрение",
+          "amount": 4,
+          "icon": "/game/items/369.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Удобрение Делюкс",
+          "amount": 40,
+          "icon": "/game/items/919.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Семена волокон",
+          "amount": 5,
+          "icon": "/game/items/885.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "StatueOfBlessings_Name",
+          "amount": 999,
+          "icon": "/game/craftables/StatueOfBlessings.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Мини-ловушка",
+          "amount": 10,
+          "icon": "/game/items/694.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Высококачественный поплавок",
+          "amount": 20,
+          "icon": "/game/items/877.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "412",
@@ -11616,7 +17674,30 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/412.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Зима; шахты; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок зимних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Коренья на блюде",
+          "amount": 1,
+          "icon": "/game/items/244.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Зимние семена",
+          "amount": 1,
+          "icon": "/game/items/498.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "829",
@@ -11635,7 +17716,24 @@ export const GAME_DATA = {
         "preserves_pickle"
       ],
       "icon": "/game/items/829.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Имбирный эль",
+          "amount": 3,
+          "icon": "/game/items/903.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Остров",
+          "amount": 1,
+          "icon": "/game/items/886.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "420",
@@ -11656,7 +17754,29 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/420.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Лето, Осень; шахты; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок заготовки экзотики",
+          "amount": 1
+        },
+        {
+          "room": "Доска объявлений",
+          "bundle": "Красочный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Эликсир жизни",
+          "amount": 1,
+          "icon": "/game/items/773.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "281",
@@ -11677,7 +17797,18 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/281.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Осень; пещера на ферме; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Эликсир жизни",
+          "amount": 1,
+          "icon": "/game/items/773.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "399",
@@ -11695,7 +17826,11 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/399.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Весна; весенний лес и город; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "20",
@@ -11713,7 +17848,41 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/20.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Весна; весенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок весенних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Салат",
+          "amount": 1,
+          "icon": "/game/items/196.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Весенние семена",
+          "amount": 1,
+          "icon": "/game/items/495.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Джордж",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/George.png"
+        },
+        {
+          "villager": "Пенни",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Penny.png"
+        }
+      ]
     },
     {
       "id": "851",
@@ -11730,7 +17899,11 @@ export const GAME_DATA = {
         "edible_mushroom"
       ],
       "icon": "/game/items/851.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "18",
@@ -11748,7 +17921,85 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/18.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Весна; весенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок весенних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Весенние семена",
+          "amount": 1,
+          "icon": "/game/items/495.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Кэролайн",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Caroline.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Эвелин",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Evelyn.png"
+        },
+        {
+          "villager": "Джордж",
+          "taste": "Любит",
+          "portrait": "/game/portraits/George.png"
+        },
+        {
+          "villager": "Гас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Gus.png"
+        },
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Джоди",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jodi.png"
+        },
+        {
+          "villager": "Кент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Kent.png"
+        },
+        {
+          "villager": "Лея",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Leah.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Пьер",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pierre.png"
+        }
+      ]
     },
     {
       "id": "22",
@@ -11766,7 +18017,41 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/22.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Весна; весенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок весенних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Салат",
+          "amount": 1,
+          "icon": "/game/items/196.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Весенние семена",
+          "amount": 1,
+          "icon": "/game/items/495.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Пенни",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Penny.png"
+        },
+        {
+          "villager": "Пьер",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pierre.png"
+        }
+      ]
     },
     {
       "id": "283",
@@ -11784,7 +18069,11 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/283.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Зима; зимний сбор; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "78",
@@ -11803,7 +18092,48 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/78.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "любой сезон; шахты; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок заготовки экзотики",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "«Бургер для выживания»",
+          "amount": 1,
+          "icon": "/game/items/241.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "«Шахтерский леденец»",
+          "amount": 2,
+          "icon": "/game/items/243.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Коренья на блюде",
+          "amount": 1,
+          "icon": "/game/items/244.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Стир-фрай",
+          "amount": 1,
+          "icon": "/game/items/606.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Дварф",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Dwarf.png"
+        }
+      ]
     },
     {
       "id": "257",
@@ -11824,7 +18154,30 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/257.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Весна; пещера на ферме; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок заготовки экзотики",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Жареные грибы",
+          "amount": 1,
+          "icon": "/game/items/205.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Эликсир жизни",
+          "amount": 1,
+          "icon": "/game/items/773.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "416",
@@ -11840,7 +18193,24 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/416.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок зимних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Зимние семена",
+          "amount": 1,
+          "icon": "/game/items/498.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "422",
@@ -11859,7 +18229,45 @@ export const GAME_DATA = {
         "forage_item_mines"
       ],
       "icon": "/game/items/422.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "любой сезон; шахты; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок заготовки экзотики",
+          "amount": 1
+        },
+        {
+          "room": "Доска объявлений",
+          "bundle": "Исследовательский узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Эликсир жизни",
+          "amount": 1,
+          "icon": "/game/items/773.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Деметриус",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Demetrius.png"
+        },
+        {
+          "villager": "Харви",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Harvey.png"
+        },
+        {
+          "villager": "Волшебник",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Wizard.png"
+        }
+      ]
     },
     {
       "id": "408",
@@ -11877,7 +18285,42 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/408.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Осень; осенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок осенних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "«Объеденье»",
+          "amount": 1,
+          "icon": "/game/items/239.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Жареный фундук",
+          "amount": 3,
+          "icon": "/game/items/607.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Осенние семена",
+          "amount": 1,
+          "icon": "/game/items/497.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Лея",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Leah.png"
+        }
+      ]
     },
     {
       "id": "404",
@@ -11897,7 +18340,42 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/404.png",
-      "categoryName": "Собирательство"
+      "categoryName": "Собирательство",
+      "availability": "Весна, Осень; осенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок осенних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Жареные грибы",
+          "amount": 1,
+          "icon": "/game/items/205.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Суп том кха",
+          "amount": 1,
+          "icon": "/game/items/218.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Стир-фрай",
+          "amount": 1,
+          "icon": "/game/items/606.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Осенние семена",
+          "amount": 1,
+          "icon": "/game/items/497.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "787",
@@ -11913,7 +18391,60 @@ export const GAME_DATA = {
         "color_cyan"
       ],
       "icon": "/game/items/787.png",
-      "categoryName": "Стройматериал"
+      "categoryName": "Стройматериал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "SlimeEggPress_Name",
+          "amount": 1,
+          "icon": "/game/craftables/158.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Crystalarium_Name",
+          "amount": 1,
+          "icon": "/game/craftables/21.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "MiniJukebox_Name",
+          "amount": 1,
+          "icon": "/game/craftables/209.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Иридиевый спринклер",
+          "amount": 1,
+          "icon": "/game/items/645.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "WoodLamppost_Name",
+          "amount": 1,
+          "icon": "/game/craftables/152.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "IronLamppost_Name",
+          "amount": 1,
+          "icon": "/game/craftables/153.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "FarmComputer_Name",
+          "amount": 1,
+          "icon": "/game/craftables/239.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "771",
@@ -11930,7 +18461,84 @@ export const GAME_DATA = {
         "seedmaker_banned"
       ],
       "icon": "/game/items/771.png",
-      "categoryName": "Стройматериал"
+      "categoryName": "Стройматериал",
+      "availability": "Весна, Лето, Осень, Зима; растет 7 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Рассада травы",
+          "amount": 10,
+          "icon": "/game/items/297.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Рассада голубой травы",
+          "amount": 25,
+          "icon": "/game/items/BlueGrassStarter.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Scarecrow_Name",
+          "amount": 20,
+          "icon": "/game/craftables/8.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "DeluxeScarecrow_Name",
+          "amount": 40,
+          "icon": "/game/craftables/167.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Loom_Name",
+          "amount": 30,
+          "icon": "/game/craftables/17.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "WormBin_Name",
+          "amount": 50,
+          "icon": "/game/craftables/154.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Флейта-блок",
+          "amount": 20,
+          "icon": "/game/items/464.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Барабан-блок",
+          "amount": 20,
+          "icon": "/game/items/463.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Древесное удобрение",
+          "amount": 5,
+          "icon": "/game/items/805.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Влагосохраняющая почва Делюкс",
+          "amount": 3,
+          "icon": "/game/items/920.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Саженец чая",
+          "amount": 5,
+          "icon": "/game/items/251.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Ферма",
+          "amount": 20,
+          "icon": "/game/items/688.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "330",
@@ -11946,7 +18554,54 @@ export const GAME_DATA = {
         "color_brown"
       ],
       "icon": "/game/items/330.png",
-      "categoryName": "Стройматериал"
+      "categoryName": "Стройматериал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Dehydrator_Name",
+          "amount": 2,
+          "icon": "/game/craftables/Dehydrator.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "GardenPot_Name",
+          "amount": 1,
+          "icon": "/game/craftables/62.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Высококачественная влагосохраняющая почва",
+          "amount": 1,
+          "icon": "/game/items/371.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Влагосохраняющая почва Делюкс",
+          "amount": 1,
+          "icon": "/game/items/920.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Семена волокон",
+          "amount": 1,
+          "icon": "/game/items/885.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Кирпичное покрытие",
+          "amount": 2,
+          "icon": "/game/items/293.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BoneMill_Name",
+          "amount": 3,
+          "icon": "/game/craftables/90.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "388",
@@ -11963,7 +18618,95 @@ export const GAME_DATA = {
         "wood_item"
       ],
       "icon": "/game/items/388.png",
-      "categoryName": "Стройматериал"
+      "categoryName": "Стройматериал",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Строительный узелок",
+          "amount": 99
+        },
+        {
+          "room": "Мастерская",
+          "bundle": "Строительный узелок",
+          "amount": 99
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Деревянный забор",
+          "amount": 2,
+          "icon": "/game/items/322.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Калитка",
+          "amount": 10,
+          "icon": "/game/items/325.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Chest_Name",
+          "amount": 50,
+          "icon": "/game/craftables/130.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BigChest_Name",
+          "amount": 120,
+          "icon": "/game/craftables/BigChest.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Факел",
+          "amount": 1,
+          "icon": "/game/items/93.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Scarecrow_Name",
+          "amount": 50,
+          "icon": "/game/craftables/8.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "DeluxeScarecrow_Name",
+          "amount": 50,
+          "icon": "/game/craftables/167.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BeeHouse_Name",
+          "amount": 40,
+          "icon": "/game/craftables/10.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Keg_Name",
+          "amount": 30,
+          "icon": "/game/craftables/12.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Cask_Name",
+          "amount": 20,
+          "icon": "/game/craftables/163.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Dehydrator_Name",
+          "amount": 30,
+          "icon": "/game/craftables/Dehydrator.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "WoodSign_Name",
+          "amount": 25,
+          "icon": "/game/craftables/37.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "390",
@@ -11979,7 +18722,90 @@ export const GAME_DATA = {
         "color_gray"
       ],
       "icon": "/game/items/390.png",
-      "categoryName": "Стройматериал"
+      "categoryName": "Стройматериал",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Строительный узелок",
+          "amount": 99
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Каменный забор",
+          "amount": 2,
+          "icon": "/game/items/323.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "StoneChest_Name",
+          "amount": 50,
+          "icon": "/game/craftables/232.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BigStoneChest_Name",
+          "amount": 250,
+          "icon": "/game/craftables/BigStoneChest.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Furnace_Name",
+          "amount": 25,
+          "icon": "/game/craftables/13.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "HeavyFurnace_Name",
+          "amount": 50,
+          "icon": "/game/craftables/HeavyFurnace.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "GardenPot_Name",
+          "amount": 10,
+          "icon": "/game/craftables/62.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "StoneSign_Name",
+          "amount": 25,
+          "icon": "/game/craftables/38.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "CheesePress_Name",
+          "amount": 45,
+          "icon": "/game/craftables/16.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "MayonnaiseMachine_Name",
+          "amount": 15,
+          "icon": "/game/craftables/24.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "RecyclingMachine_Name",
+          "amount": 25,
+          "icon": "/game/craftables/20.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "PreservesJar_Name",
+          "amount": 40,
+          "icon": "/game/craftables/15.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Crystalarium_Name",
+          "amount": 99,
+          "icon": "/game/craftables/21.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "Moss",
@@ -11995,7 +18821,66 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/Moss.png",
-      "categoryName": "Стройматериал"
+      "categoryName": "Стройматериал",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Суп из мха",
+          "amount": 20,
+          "icon": "/game/items/MossSoup.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Рассада голубой травы",
+          "amount": 10,
+          "icon": "/game/items/BlueGrassStarter.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "DeluxeWormBin_Name",
+          "amount": 30,
+          "icon": "/game/craftables/DeluxeWormBin.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "MushroomLog_Name",
+          "amount": 10,
+          "icon": "/game/craftables/MushroomLog.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "СкороРост",
+          "amount": 5,
+          "icon": "/game/items/465.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем сокровищ",
+          "amount": 10,
+          "icon": "/game/items/TreasureTotem.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "StatueOfBlessings_Name",
+          "amount": 333,
+          "icon": "/game/craftables/StatueOfBlessings.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Элитная наживка",
+          "amount": 2,
+          "icon": "/game/items/DeluxeBait.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Сложная наживка",
+          "amount": 2,
+          "icon": "/game/items/ChallengeBait.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "709",
@@ -12012,7 +18897,96 @@ export const GAME_DATA = {
         "wood_item"
       ],
       "icon": "/game/items/709.png",
-      "categoryName": "Стройматериал"
+      "categoryName": "Стройматериал",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Строительный узелок",
+          "amount": 10
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Забор из твердой древесины",
+          "amount": 1,
+          "icon": "/game/items/298.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Cask_Name",
+          "amount": 1,
+          "icon": "/game/craftables/163.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "CheesePress_Name",
+          "amount": 10,
+          "icon": "/game/craftables/16.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "OilMaker_Name",
+          "amount": 20,
+          "icon": "/game/craftables/19.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "WormBin_Name",
+          "amount": 15,
+          "icon": "/game/craftables/154.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "FishSmoker_Name",
+          "amount": 10,
+          "icon": "/game/craftables/FishSmoker.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "MushroomLog_Name",
+          "amount": 10,
+          "icon": "/game/craftables/MushroomLog.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Ферма",
+          "amount": 1,
+          "icon": "/game/items/688.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Горы",
+          "amount": 1,
+          "icon": "/game/items/689.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Пляж",
+          "amount": 1,
+          "icon": "/game/items/690.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Пустыня",
+          "amount": 2,
+          "icon": "/game/items/261.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Остров",
+          "amount": 5,
+          "icon": "/game/items/886.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Робин",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Robin.png"
+        }
+      ]
     },
     {
       "id": "920",
@@ -12029,7 +19003,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/920.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "371",
@@ -12047,7 +19025,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/371.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "369",
@@ -12065,7 +19047,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/369.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "918",
@@ -12082,7 +19068,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/918.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "805",
@@ -12099,7 +19089,11 @@ export const GAME_DATA = {
         "fertilizer_item"
       ],
       "icon": "/game/items/805.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "370",
@@ -12117,7 +19111,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/370.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "368",
@@ -12135,7 +19133,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/368.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "465",
@@ -12153,7 +19155,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/465.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "466",
@@ -12171,7 +19177,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/466.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "919",
@@ -12188,7 +19198,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/919.png",
-      "categoryName": "Удобрение"
+      "categoryName": "Удобрение",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "348",
@@ -12207,7 +19221,38 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/348.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Узелок волшебника",
+          "amount": 1
+        },
+        {
+          "room": "Заброшенный ДжоджаМарт",
+          "bundle": "Пропавший узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Гас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Gus.png"
+        },
+        {
+          "villager": "Харви",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Harvey.png"
+        },
+        {
+          "villager": "Лея",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Leah.png"
+        }
+      ]
     },
     {
       "id": "447",
@@ -12224,7 +19269,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/447.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "344",
@@ -12242,7 +19291,17 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/344.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "807",
@@ -12261,7 +19320,17 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/807.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Заброшенный ДжоджаМарт",
+          "bundle": "Пропавший узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "614",
@@ -12277,7 +19346,32 @@ export const GAME_DATA = {
         "color_green"
       ],
       "icon": "/game/items/614.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кэролайн",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Caroline.png"
+        },
+        {
+          "villager": "Харви",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Harvey.png"
+        },
+        {
+          "villager": "Льюис",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Lewis.png"
+        },
+        {
+          "villager": "Себастиан",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sebastian.png"
+        }
+      ]
     },
     {
       "id": "Raisins",
@@ -12293,7 +19387,17 @@ export const GAME_DATA = {
         "color_purple"
       ],
       "icon": "/game/items/Raisins.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эвелин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Evelyn.png"
+        }
+      ]
     },
     {
       "id": "426",
@@ -12309,7 +19413,28 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/426.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Лея",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Leah.png"
+        },
+        {
+          "villager": "Робин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Robin.png"
+        }
+      ]
     },
     {
       "id": "SmokedFish",
@@ -12323,7 +19448,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/SmokedFish.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "306",
@@ -12340,7 +19469,24 @@ export const GAME_DATA = {
         "mayo_item"
       ],
       "icon": "/game/items/306.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Рыбное тако",
+          "amount": 1,
+          "icon": "/game/items/213.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Капустный салат",
+          "amount": 1,
+          "icon": "/game/items/648.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "308",
@@ -12358,7 +19504,24 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/308.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Странная булочка",
+          "amount": 1,
+          "icon": "/game/items/203.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Кробус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Krobus.png"
+        }
+      ]
     },
     {
       "id": "342",
@@ -12375,7 +19538,17 @@ export const GAME_DATA = {
         "pickle_item"
       ],
       "icon": "/game/items/342.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Харви",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Harvey.png"
+        }
+      ]
     },
     {
       "id": "340",
@@ -12393,7 +19566,35 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/340.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Ферма",
+          "amount": 1,
+          "icon": "/game/items/688.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Кробус",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Krobus.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "459",
@@ -12410,7 +19611,22 @@ export const GAME_DATA = {
         "color_gold"
       ],
       "icon": "/game/items/459.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Пэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Вилли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Willy.png"
+        }
+      ]
     },
     {
       "id": "346",
@@ -12427,7 +19643,27 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/346.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Elliott.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Шейн",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Shane.png"
+        }
+      ]
     },
     {
       "id": "303",
@@ -12444,7 +19680,27 @@ export const GAME_DATA = {
         "color_gold"
       ],
       "icon": "/game/items/303.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Гас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Gus.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Шейн",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Shane.png"
+        }
+      ]
     },
     {
       "id": "350",
@@ -12463,7 +19719,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/350.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "DriedFruit",
@@ -12477,7 +19737,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/DriedFruit.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "DriedMushrooms",
@@ -12491,7 +19755,11 @@ export const GAME_DATA = {
       "texture": "TileSheets\\Objects_2",
       "tags": [],
       "icon": "/game/items/DriedMushrooms.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "424",
@@ -12507,7 +19775,42 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/424.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Цветная капуста с сыром",
+          "amount": 1,
+          "icon": "/game/items/197.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Пицца",
+          "amount": 1,
+          "icon": "/game/items/206.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Перечные бомбочки",
+          "amount": 1,
+          "icon": "/game/items/215.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Робин",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Robin.png"
+        }
+      ]
     },
     {
       "id": "428",
@@ -12523,7 +19826,41 @@ export const GAME_DATA = {
         "color_white"
       ],
       "icon": "/game/items/428.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Набор с палаткой",
+          "amount": 1,
+          "icon": "/game/items/TentKit.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Украшенный спиннер",
+          "amount": 1,
+          "icon": "/game/items/687.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Эмили",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Сэнди",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sandy.png"
+        }
+      ]
     },
     {
       "id": "432",
@@ -12539,7 +19876,30 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/432.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Тотем дождя",
+          "amount": 1,
+          "icon": "/game/items/681.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Харви",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Harvey.png"
+        }
+      ]
     },
     {
       "id": "307",
@@ -12557,7 +19917,11 @@ export const GAME_DATA = {
         "use_reverse_name_for_sorting"
       ],
       "icon": "/game/items/307.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "445",
@@ -12573,7 +19937,17 @@ export const GAME_DATA = {
         "color_black"
       ],
       "icon": "/game/items/445.png",
-      "categoryName": "Фрукт"
+      "categoryName": "Фрукт",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Заброшенный ДжоджаМарт",
+          "bundle": "Пропавший узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "634",
@@ -12592,7 +19966,24 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/634.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Весна; весенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Фруктовый салат",
+          "amount": 1,
+          "icon": "/game/items/610.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "832",
@@ -12609,7 +20000,18 @@ export const GAME_DATA = {
         "fruit_item"
       ],
       "icon": "/game/items/832.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Лето; растет 14 дн.; Остров",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Тропическое карри",
+          "amount": 1,
+          "icon": "/game/items/907.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "635",
@@ -12628,7 +20030,23 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/635.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Лето; летний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Гас",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Gus.png"
+        }
+      ]
     },
     {
       "id": "91",
@@ -12646,7 +20064,18 @@ export const GAME_DATA = {
         "fruit_tree_item"
       ],
       "icon": "/game/items/91.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Банановый пудинг",
+          "amount": 1,
+          "icon": "/game/items/904.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "398",
@@ -12664,7 +20093,30 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/398.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Осень; растет 10 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок летних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Летние семена",
+          "amount": 1,
+          "icon": "/game/items/496.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Винсент",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "638",
@@ -12683,7 +20135,17 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/638.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Весна; весенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "637",
@@ -12702,7 +20164,28 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/637.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Осень; осенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        },
+        {
+          "room": "Доска объявлений",
+          "bundle": "Узелок волшебника",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эллиот",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Elliott.png"
+        }
+      ]
     },
     {
       "id": "406",
@@ -12720,7 +20203,36 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/406.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Осень; осенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок осенних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Сливовый пудинг",
+          "amount": 2,
+          "icon": "/game/items/604.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Осенние семена",
+          "amount": 1,
+          "icon": "/game/items/497.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Лея",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Leah.png"
+        }
+      ]
     },
     {
       "id": "454",
@@ -12736,7 +20248,17 @@ export const GAME_DATA = {
         "color_cyan"
       ],
       "icon": "/game/items/454.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Весна, Лето, Осень; растет 28 дн.; Поздняя игра",
+      "usedInBundles": [
+        {
+          "room": "Заброшенный ДжоджаМарт",
+          "bundle": "Пропавший узелок",
+          "amount": 5
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "254",
@@ -12754,7 +20276,41 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/254.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Лето; растет 12 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок летнего урожая",
+          "amount": 1
+        },
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок отборного урожая",
+          "amount": 5
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Розовый торт",
+          "amount": 1,
+          "icon": "/game/items/221.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Фруктовый салат",
+          "amount": 1,
+          "icon": "/game/items/610.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Пенни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Penny.png"
+        }
+      ]
     },
     {
       "id": "410",
@@ -12772,7 +20328,30 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/410.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Осень; осенний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок осенних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Ежевичный коблер",
+          "amount": 2,
+          "icon": "/game/items/611.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Осенние семена",
+          "amount": 1,
+          "icon": "/game/items/497.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "260",
@@ -12790,7 +20369,47 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/260.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Лето; растет 5 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок летнего урожая",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Перечные бомбочки",
+          "amount": 1,
+          "icon": "/game/items/215.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Острый угорь",
+          "amount": 1,
+          "icon": "/game/items/226.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Тропическое карри",
+          "amount": 1,
+          "icon": "/game/items/907.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Lewis.png"
+        },
+        {
+          "villager": "Шейн",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Shane.png"
+        }
+      ]
     },
     {
       "id": "268",
@@ -12806,7 +20425,11 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/268.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Лето; растет 13 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "400",
@@ -12824,7 +20447,22 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/400.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Весна; растет 8 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Деметриус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Demetrius.png"
+        },
+        {
+          "villager": "Мару",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Maru.png"
+        }
+      ]
     },
     {
       "id": "282",
@@ -12842,7 +20480,36 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/282.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Осень; растет 7 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Чудо-блюдо",
+          "amount": 1,
+          "icon": "/game/items/237.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Клюквенный соус",
+          "amount": 1,
+          "icon": "/game/items/238.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "«Объеденье»",
+          "amount": 1,
+          "icon": "/game/items/239.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Клюквенная сласть",
+          "amount": 1,
+          "icon": "/game/items/612.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "88",
@@ -12861,7 +20528,78 @@ export const GAME_DATA = {
         "season_all"
       ],
       "icon": "/game/items/88.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "любой сезон; пустыня; Пустыня",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок заготовки экзотики",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Суп том кха",
+          "amount": 1,
+          "icon": "/game/items/218.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Манговый клейкий рис",
+          "amount": 1,
+          "icon": "/game/items/905.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Тропическое карри",
+          "amount": 1,
+          "icon": "/game/items/907.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Тотем-телепорт: Пустыня",
+          "amount": 1,
+          "icon": "/game/items/261.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Хэйли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Хэйли",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Haley.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jas.png"
+        },
+        {
+          "villager": "Льюис",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Lewis.png"
+        },
+        {
+          "villager": "Линус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Linus.png"
+        },
+        {
+          "villager": "Сэнди",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sandy.png"
+        },
+        {
+          "villager": "Винсент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Vincent.png"
+        }
+      ]
     },
     {
       "id": "414",
@@ -12879,7 +20617,24 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/414.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Зима; зимний сбор; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок зимних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Зимние семена",
+          "amount": 1,
+          "icon": "/game/items/498.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "834",
@@ -12897,7 +20652,24 @@ export const GAME_DATA = {
         "fruit_tree_item"
       ],
       "icon": "/game/items/834.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Манговый клейкий рис",
+          "amount": 1,
+          "icon": "/game/items/905.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Лео",
+          "taste": "Обожает",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "296",
@@ -12913,7 +20685,11 @@ export const GAME_DATA = {
         "color_red"
       ],
       "icon": "/game/items/296.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "396",
@@ -12931,7 +20707,30 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/396.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Лето; летний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок летних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Летние семена",
+          "amount": 1,
+          "icon": "/game/items/496.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Лео",
+          "taste": "Любит",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "636",
@@ -12950,7 +20749,23 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/636.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Лето; летний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Робин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Robin.png"
+        }
+      ]
     },
     {
       "id": "90",
@@ -12968,7 +20783,38 @@ export const GAME_DATA = {
         "forage_item_desert"
       ],
       "icon": "/game/items/90.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Весна, Лето, Осень, Зима; растет 12 дн.; Пустыня",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок заготовки экзотики",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Lewis.png"
+        },
+        {
+          "villager": "Линус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Linus.png"
+        },
+        {
+          "villager": "Пэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Pam.png"
+        },
+        {
+          "villager": "Сэм",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sam.png"
+        }
+      ]
     },
     {
       "id": "252",
@@ -12986,7 +20832,18 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/252.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Весна; растет 13 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Пирог с ревенем",
+          "amount": 1,
+          "icon": "/game/items/222.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "Powdermelon",
@@ -13004,7 +20861,11 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/Powdermelon.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Зима; растет 7 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "889",
@@ -13020,7 +20881,11 @@ export const GAME_DATA = {
         "color_blue"
       ],
       "icon": "/game/items/889.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Весна, Лето, Осень, Зима; растет 4 дн.; Перфекшен",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "258",
@@ -13038,7 +20903,36 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/258.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "Лето; растет 13 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Узелок летнего урожая",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Черничный тарт",
+          "amount": 1,
+          "icon": "/game/items/234.png"
+        },
+        {
+          "kind": "готовка",
+          "recipe": "Фруктовый салат",
+          "amount": 1,
+          "icon": "/game/items/610.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Льюис",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Lewis.png"
+        }
+      ]
     },
     {
       "id": "613",
@@ -13056,7 +20950,29 @@ export const GAME_DATA = {
         "fruit_tree_item"
       ],
       "icon": "/game/items/613.png",
-      "categoryName": "Фруктовое дерево"
+      "categoryName": "Фруктовое дерево",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Хозяйственный узелок",
+          "amount": 1
+        },
+        {
+          "room": "Доска объявлений",
+          "bundle": "Кормовой узелок",
+          "amount": 3
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Клюквенная сласть",
+          "amount": 1,
+          "icon": "/game/items/612.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "747",
@@ -13072,7 +20988,11 @@ export const GAME_DATA = {
         "color_copper"
       ],
       "icon": "/game/items/747.png",
-      "categoryName": "Хлам"
+      "categoryName": "Хлам",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "748",
@@ -13088,7 +21008,11 @@ export const GAME_DATA = {
         "color_copper"
       ],
       "icon": "/game/items/748.png",
-      "categoryName": "Хлам"
+      "categoryName": "Хлам",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "167",
@@ -13105,7 +21029,17 @@ export const GAME_DATA = {
         "drink_item"
       ],
       "icon": "/game/items/167.png",
-      "categoryName": "Хлам"
+      "categoryName": "Хлам",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Сэм",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Sam.png"
+        }
+      ]
     },
     {
       "id": "169",
@@ -13123,7 +21057,17 @@ export const GAME_DATA = {
         "wood_item"
       ],
       "icon": "/game/items/169.png",
-      "categoryName": "Хлам"
+      "categoryName": "Хлам",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Лея",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Leah.png"
+        }
+      ]
     },
     {
       "id": "172",
@@ -13140,7 +21084,11 @@ export const GAME_DATA = {
         "trash_item"
       ],
       "icon": "/game/items/172.png",
-      "categoryName": "Хлам"
+      "categoryName": "Хлам",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "168",
@@ -13157,7 +21105,11 @@ export const GAME_DATA = {
         "trash_item"
       ],
       "icon": "/game/items/168.png",
-      "categoryName": "Хлам"
+      "categoryName": "Хлам",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "170",
@@ -13174,7 +21126,17 @@ export const GAME_DATA = {
         "trash_item"
       ],
       "icon": "/game/items/170.png",
-      "categoryName": "Хлам"
+      "categoryName": "Хлам",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эвелин",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Evelyn.png"
+        }
+      ]
     },
     {
       "id": "171",
@@ -13191,7 +21153,11 @@ export const GAME_DATA = {
         "trash_item"
       ],
       "icon": "/game/items/171.png",
-      "categoryName": "Хлам"
+      "categoryName": "Хлам",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "402",
@@ -13211,7 +21177,75 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/402.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "Лето; летний лес и город; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок летних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Летние семена",
+          "amount": 1,
+          "icon": "/game/items/496.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Кэролайн",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Caroline.png"
+        },
+        {
+          "villager": "Эмили",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Emily.png"
+        },
+        {
+          "villager": "Эвелин",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Evelyn.png"
+        },
+        {
+          "villager": "Харви",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Harvey.png"
+        },
+        {
+          "villager": "Джоди",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jodi.png"
+        },
+        {
+          "villager": "Кент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Kent.png"
+        },
+        {
+          "villager": "Лея",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Leah.png"
+        },
+        {
+          "villager": "Марни",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Marnie.png"
+        },
+        {
+          "villager": "Пьер",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pierre.png"
+        },
+        {
+          "villager": "Сэнди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sandy.png"
+        }
+      ]
     },
     {
       "id": "684",
@@ -13227,7 +21261,42 @@ export const GAME_DATA = {
         "color_dark_pink"
       ],
       "icon": "/game/items/684.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Наживка",
+          "amount": 1,
+          "icon": "/game/items/685.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Дикая наживка",
+          "amount": 5,
+          "icon": "/game/items/774.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Кольцо стойкости",
+          "amount": 25,
+          "icon": "/game/items/525.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Жучиный стейк",
+          "amount": 10,
+          "icon": "/game/items/874.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Волшебная приманка",
+          "amount": 3,
+          "icon": "/game/items/908.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "418",
@@ -13247,7 +21316,70 @@ export const GAME_DATA = {
         "season_winter"
       ],
       "icon": "/game/items/418.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "Зима; зимний сбор; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Мастерская",
+          "bundle": "Узелок зимних дикоросов",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Зимние семена",
+          "amount": 1,
+          "icon": "/game/items/498.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Кэролайн",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Caroline.png"
+        },
+        {
+          "villager": "Эвелин",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Evelyn.png"
+        },
+        {
+          "villager": "Харви",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Harvey.png"
+        },
+        {
+          "villager": "Джоди",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Jodi.png"
+        },
+        {
+          "villager": "Кент",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Kent.png"
+        },
+        {
+          "villager": "Лея",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Leah.png"
+        },
+        {
+          "villager": "Марни",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Marnie.png"
+        },
+        {
+          "villager": "Пьер",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Pierre.png"
+        },
+        {
+          "villager": "Сэнди",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sandy.png"
+        }
+      ]
     },
     {
       "id": "767",
@@ -13263,7 +21395,36 @@ export const GAME_DATA = {
         "color_black"
       ],
       "icon": "/game/items/767.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Узелок приключенца",
+          "amount": 10
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "DarkSign_Name",
+          "amount": 5,
+          "icon": "/game/craftables/39.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "LightningRod_Name",
+          "amount": 5,
+          "icon": "/game/craftables/9.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Монстрячий мускус",
+          "amount": 30,
+          "icon": "/game/items/879.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "593",
@@ -13282,7 +21443,17 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/593.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "Лето; растет 8 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кэролайн",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Caroline.png"
+        }
+      ]
     },
     {
       "id": "376",
@@ -13301,7 +21472,30 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/376.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "Лето; растет 7 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Поварской узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Маффин с маком",
+          "amount": 1,
+          "icon": "/game/items/651.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Пенни",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Penny.png"
+        }
+      ]
     },
     {
       "id": "421",
@@ -13321,7 +21515,23 @@ export const GAME_DATA = {
         "season_summer"
       ],
       "icon": "/game/items/421.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "Лето, Осень; растет 8 дн.; Год 1",
+      "usedInBundles": [
+        {
+          "room": "Доска объявлений",
+          "bundle": "Красочный узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Хэйли",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Haley.png"
+        }
+      ]
     },
     {
       "id": "597",
@@ -13340,7 +21550,18 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/597.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "Весна; растет 7 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "готовка",
+          "recipe": "Обед на удачу",
+          "amount": 1,
+          "icon": "/game/items/204.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "595",
@@ -13359,7 +21580,29 @@ export const GAME_DATA = {
         "season_fall"
       ],
       "icon": "/game/items/595.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "Осень; растет 12 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Волшебный порошок",
+          "amount": 1,
+          "icon": "/game/items/872.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Эвелин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Evelyn.png"
+        },
+        {
+          "villager": "Джас",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Jas.png"
+        }
+      ]
     },
     {
       "id": "766",
@@ -13376,7 +21619,54 @@ export const GAME_DATA = {
         "slime_item"
       ],
       "icon": "/game/items/766.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Узелок приключенца",
+          "amount": 99
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "OilMaker_Name",
+          "amount": 50,
+          "icon": "/game/craftables/19.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "SlimeIncubator_Name",
+          "amount": 100,
+          "icon": "/game/craftables/156.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Дикая наживка",
+          "amount": 5,
+          "icon": "/game/items/774.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Пробковый поплавок",
+          "amount": 10,
+          "icon": "/game/items/695.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Кольцо стойкости",
+          "amount": 25,
+          "icon": "/game/items/525.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Монстрячий мускус",
+          "amount": 30,
+          "icon": "/game/items/879.png"
+        }
+      ],
+      "giftFor": []
     },
     {
       "id": "768",
@@ -13392,7 +21682,66 @@ export const GAME_DATA = {
         "color_yellow"
       ],
       "icon": "/game/items/768.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Узелок приключенца",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Гипер СкороРост",
+          "amount": 1,
+          "icon": "/game/items/918.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Мегабомба",
+          "amount": 1,
+          "icon": "/game/items/288.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Иридиевый перстень",
+          "amount": 50,
+          "icon": "/game/items/527.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "BarrelBrazier_Name",
+          "amount": 1,
+          "icon": "/game/craftables/150.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Высококачественный поплавок",
+          "amount": 5,
+          "icon": "/game/items/877.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "MiniObelisk_Name",
+          "amount": 20,
+          "icon": "/game/craftables/238.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Светокаменное кольцо",
+          "amount": 5,
+          "icon": "/game/items/888.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Волшебник",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Wizard.png"
+        }
+      ]
     },
     {
       "id": "591",
@@ -13411,7 +21760,17 @@ export const GAME_DATA = {
         "season_spring"
       ],
       "icon": "/game/items/591.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "Весна; растет 6 дн.; Год 1",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Эвелин",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Evelyn.png"
+        }
+      ]
     },
     {
       "id": "769",
@@ -13427,7 +21786,36 @@ export const GAME_DATA = {
         "color_purple"
       ],
       "icon": "/game/items/769.png",
-      "categoryName": "Цветок"
+      "categoryName": "Цветок",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Котельная",
+          "bundle": "Узелок приключенца",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [
+        {
+          "kind": "крафт",
+          "recipe": "Мегабомба",
+          "amount": 1,
+          "icon": "/game/items/288.png"
+        },
+        {
+          "kind": "крафт",
+          "recipe": "Иридиевый перстень",
+          "amount": 50,
+          "icon": "/game/items/527.png"
+        }
+      ],
+      "giftFor": [
+        {
+          "villager": "Волшебник",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Wizard.png"
+        }
+      ]
     },
     {
       "id": "174",
@@ -13445,7 +21833,17 @@ export const GAME_DATA = {
         "large_egg_item"
       ],
       "icon": "/game/items/174.png",
-      "categoryName": "Яйцо"
+      "categoryName": "Яйцо",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Животноводческий узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "182",
@@ -13463,7 +21861,17 @@ export const GAME_DATA = {
         "large_egg_item"
       ],
       "icon": "/game/items/182.png",
-      "categoryName": "Яйцо"
+      "categoryName": "Яйцо",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Животноводческий узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "928",
@@ -13479,7 +21887,11 @@ export const GAME_DATA = {
         "egg_item"
       ],
       "icon": "/game/items/928.png",
-      "categoryName": "Яйцо"
+      "categoryName": "Яйцо",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "289",
@@ -13497,7 +21909,17 @@ export const GAME_DATA = {
         "large_egg_item"
       ],
       "icon": "/game/items/289.png",
-      "categoryName": "Яйцо"
+      "categoryName": "Яйцо",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Лео",
+          "taste": "Обожает",
+          "portrait": ""
+        }
+      ]
     },
     {
       "id": "442",
@@ -13514,7 +21936,23 @@ export const GAME_DATA = {
         "egg_item"
       ],
       "icon": "/game/items/442.png",
-      "categoryName": "Яйцо"
+      "categoryName": "Яйцо",
+      "availability": "",
+      "usedInBundles": [
+        {
+          "room": "Кладовая",
+          "bundle": "Животноводческий узелок",
+          "amount": 1
+        }
+      ],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Харви",
+          "taste": "Любит",
+          "portrait": "/game/portraits/Harvey.png"
+        }
+      ]
     },
     {
       "id": "176",
@@ -13531,7 +21969,11 @@ export const GAME_DATA = {
         "egg_item"
       ],
       "icon": "/game/items/176.png",
-      "categoryName": "Яйцо"
+      "categoryName": "Яйцо",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "180",
@@ -13548,7 +21990,11 @@ export const GAME_DATA = {
         "egg_item"
       ],
       "icon": "/game/items/180.png",
-      "categoryName": "Яйцо"
+      "categoryName": "Яйцо",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": []
     },
     {
       "id": "305",
@@ -13565,7 +22011,22 @@ export const GAME_DATA = {
         "egg_item"
       ],
       "icon": "/game/items/305.png",
-      "categoryName": "Яйцо"
+      "categoryName": "Яйцо",
+      "availability": "",
+      "usedInBundles": [],
+      "usedInRecipes": [],
+      "giftFor": [
+        {
+          "villager": "Кробус",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Krobus.png"
+        },
+        {
+          "villager": "Себастиан",
+          "taste": "Обожает",
+          "portrait": "/game/portraits/Sebastian.png"
+        }
+      ]
     }
   ],
   "crops": [
@@ -18269,7 +26730,514 @@ export const GAME_DATA = {
           "name": "Дайджест драчуна",
           "icon": "/game/items/SkillBook_4.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "rain2": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_1": {
+          "label": "marriage DesertFestival 1",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Abigail_marriage"
+            },
+            {
+              "time": "01:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Abigail"
+            },
+            {
+              "time": "01:30",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "14:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Abigail:winter_15.000"
+            },
+            {
+              "time": "00:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Abigail:marriage_Mon.000"
+            },
+            {
+              "time": "13:00",
+              "place": "город",
+              "note": "Strings\\schedules\\Abigail:marriage_Mon.001"
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Abigail:marriage_Mon.002"
+            },
+            {
+              "time": "20:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Fri": {
+          "label": "marriage Fri",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Abigail:marriage_Fri.000"
+            },
+            {
+              "time": "11:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Abigail:marriage_Fri.001"
+            },
+            {
+              "time": "20:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "fall_Mon": {
+          "label": "осень, день Mon",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "6": {
+          "label": "день 6",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "16": {
+          "label": "день 16",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: 6",
+              "note": "переход"
+            }
+          ]
+        },
+        "spring_4": {
+          "label": "весна, день 4",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Abigail:spring_4.000"
+            },
+            {
+              "time": "12:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Abigail:spring_4.001"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Abigail:spring_4.002"
+            },
+            {
+              "time": "16:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Abigail:Sun.000"
+            },
+            {
+              "time": "13:00",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "11_6": {
+          "label": "11 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "25_6": {
+          "label": "25 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "11": {
+          "label": "день 11",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Sebastian 6"
+            },
+            {
+              "time": "10:00",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "25": {
+          "label": "день 25",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Sebastian 6"
+            },
+            {
+              "time": "—",
+              "place": "как расписание: 11",
+              "note": "переход"
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "музей",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "fall": {
+          "label": "осень",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "автобусная остановка",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "14:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "железная дорога",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "17:40",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Alex",
@@ -18311,7 +27279,409 @@ export const GAME_DATA = {
           "name": "Яйцо динозавра",
           "icon": "/game/items/107.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "JoshHouse",
+              "note": "Strings\\schedules\\Alex:marriage_Mon.000"
+            },
+            {
+              "time": "18:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Sun": {
+          "label": "marriage Sun",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "saloonSportsRoom",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: NO_SCHEDULE",
+              "note": "переход"
+            },
+            {
+              "time": "08:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Alex:Sun.000_married"
+            },
+            {
+              "time": "15:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_1": {
+          "label": "marriage DesertFestival 1",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Alex_marriage"
+            },
+            {
+              "time": "00:40",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "07:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Alex"
+            },
+            {
+              "time": "00:50",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer_16": {
+          "label": "лето, день 16",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Alex:summer_16.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Alex:summer_16.001"
+            },
+            {
+              "time": "16:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter_17": {
+          "label": "зима, день 17",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "BathHouse_MensLocker",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Alex:winter_17.000"
+            },
+            {
+              "time": "00:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "BathHouse_MensLocker",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "22:40",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Wed_6": {
+          "label": "Wed 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: season",
+              "note": "переход"
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Haley 6"
+            },
+            {
+              "time": "08:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:40",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "saloonSportsRoom",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: Sun_normal",
+              "note": "переход"
+            },
+            {
+              "time": "08:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Alex:Sun.000"
+            },
+            {
+              "time": "15:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Sun_normal": {
+          "label": "Sun normal",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: season",
+              "note": "переход"
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "07:30",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Caroline",
@@ -18377,7 +27747,324 @@ export const GAME_DATA = {
           "name": "Дикий хрен",
           "icon": "/game/items/16.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "fall_25": {
+          "label": "осень, день 25",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Caroline:fall_25.000"
+            },
+            {
+              "time": "12:00",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Caroline:fall_25.001"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Caroline:fall_25.002"
+            },
+            {
+              "time": "16:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Caroline"
+            },
+            {
+              "time": "00:50",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Caroline:winter_16.000"
+            },
+            {
+              "time": "23:30",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Caroline:Tue.000"
+            },
+            {
+              "time": "10:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Caroline:Tue.001"
+            },
+            {
+              "time": "18:10",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Caroline:Tue.002"
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "Sunroom",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "музей",
+              "note": "Strings\\schedules\\Caroline:Fri.000"
+            },
+            {
+              "time": "17:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "Sunroom",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Caroline:Sun.000"
+            },
+            {
+              "time": "13:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "14:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "Sunroom",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Clint",
@@ -18467,7 +28154,154 @@ export const GAME_DATA = {
           "name": "Ежемесячник копателя",
           "icon": "/game/items/SkillBook_3.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_2": {
+          "label": "DesertFestival 2",
+          "rows": [
+            {
+              "time": "06:50",
+              "place": "Blacksmith",
+              "note": ""
+            },
+            {
+              "time": "09:10",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Clint"
+            },
+            {
+              "time": "01:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "Blacksmith",
+              "note": "Strings\\schedules\\Clint:winter_16.000"
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Clint:winter_16.001"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Clint:winter_16.002"
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "Blacksmith",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "08:50",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "Blacksmith",
+              "note": ""
+            }
+          ]
+        },
+        "CommunityCenter_Replacement": {
+          "label": "CommunityCenter Replacement",
+          "rows": [
+            {
+              "time": "JojaMart",
+              "place": "27",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "08:50",
+              "place": "Blacksmith",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Clint:winter_15.000"
+            },
+            {
+              "time": "00:00",
+              "place": "Blacksmith",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:50",
+              "place": "Blacksmith",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "Blacksmith",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "Blacksmith",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Demetrius",
@@ -18515,7 +28349,289 @@ export const GAME_DATA = {
           "name": "Яйцо динозавра",
           "icon": "/game/items/107.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "07:50",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "15:40",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "19:20",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "горы",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_2": {
+          "label": "DesertFestival 2",
+          "rows": [
+            {
+              "time": "07:50",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "09:10",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Demetrius"
+            },
+            {
+              "time": "01:20",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "summer_25": {
+          "label": "лето, день 25",
+          "rows": [
+            {
+              "time": "08:20",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Demetrius:summer_25.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Demetrius:summer_25.001"
+            },
+            {
+              "time": "16:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "07:50",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:20",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "07:50",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "15:40",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Demetrius:winter_16.000"
+            },
+            {
+              "time": "23:30",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: rain",
+              "note": "переход"
+            }
+          ]
+        },
+        "fall": {
+          "label": "осень",
+          "rows": [
+            {
+              "time": "07:50",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "20:40",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "22:30",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "07:50",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "20:40",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "22:30",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "07:50",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "14:30",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "15:30",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "20:40",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "22:30",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Dwarf",
@@ -18641,7 +28757,8 @@ export const GAME_DATA = {
           "name": "Устройство дварфов",
           "icon": "/game/items/122.png"
         }
-      ]
+      ],
+      "schedules": {}
     },
     {
       "id": "Elliott",
@@ -18743,7 +28860,424 @@ export const GAME_DATA = {
           "name": "Пиво",
           "icon": "/game/items/346.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "ElliottHouse",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Elliott:marriage_Mon.000"
+            },
+            {
+              "time": "17:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_1": {
+          "label": "marriage DesertFestival 1",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Elliott_marriage"
+            },
+            {
+              "time": "00:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Elliott"
+            },
+            {
+              "time": "01:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "winter_17": {
+          "label": "зима, день 17",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "музей",
+              "note": ""
+            },
+            {
+              "time": "16:50",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Elliott:winter_17.000"
+            },
+            {
+              "time": "01:00",
+              "place": "ElliottHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer_9": {
+          "label": "лето, день 9",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Elliott:summer_9.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Elliott:summer_9.001"
+            },
+            {
+              "time": "16:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "ElliottHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: fall",
+              "note": "переход"
+            }
+          ]
+        },
+        "SquidFest": {
+          "label": "SquidFest",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "ElliottHouse",
+              "note": ""
+            }
+          ]
+        },
+        "fall": {
+          "label": "осень",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "музей",
+              "note": ""
+            },
+            {
+              "time": "17:30",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "ElliottHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Thu": {
+          "label": "четверг",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "17:30",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "ElliottHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Fri",
+              "note": "переход"
+            }
+          ]
+        },
+        "Fri_6": {
+          "label": "Fri 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Thu",
+              "note": "переход"
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Leah 6"
+            },
+            {
+              "time": "08:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "23:40",
+              "place": "ElliottHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "ElliottHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "ElliottHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "ElliottHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Emily",
@@ -18869,7 +29403,369 @@ export const GAME_DATA = {
           "name": "Душистый горошек",
           "icon": "/game/items/402.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_1": {
+          "label": "marriage DesertFestival 1",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Emily_marriage"
+            },
+            {
+              "time": "00:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_2": {
+          "label": "marriage DesertFestival 2",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Emily2_marriage"
+            },
+            {
+              "time": "00:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_3": {
+          "label": "marriage DesertFestival 3",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Emily3_marriage"
+            },
+            {
+              "time": "00:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival": {
+          "label": "DesertFestival",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Emily"
+            },
+            {
+              "time": "00:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:30",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "HaleyHouse",
+              "note": "Strings\\schedules\\Emily:marriage_Mon.000"
+            },
+            {
+              "time": "11:00",
+              "place": "город",
+              "note": "Strings\\schedules\\Emily:marriage_Mon.001"
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Emily:marriage_Mon.002"
+            },
+            {
+              "time": "22:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Fri": {
+          "label": "marriage Fri",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Emily:marriage_Fri.000"
+            },
+            {
+              "time": "13:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Emily:marriage_Fri.001"
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Emily:marriage_Fri.002"
+            },
+            {
+              "time": "22:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "14:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Emily:winter_15.000"
+            },
+            {
+              "time": "00:30",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter_11": {
+          "label": "зима, день 11",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Emily:winter_11.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Emily:winter_11.001"
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:30",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "CommunityCenter",
+              "note": "Strings\\schedules\\Emily:Fri.000"
+            },
+            {
+              "time": "15:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:30",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "15:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:30",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_fall_15": {
+          "label": "marriage fall 15",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "ccVault",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: marriage_Mon",
+              "note": "переход"
+            },
+            {
+              "time": "a1200",
+              "place": "SandyHouse",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Greeting"
+            },
+            {
+              "time": "13:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Hangout"
+            },
+            {
+              "time": "15:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Lake"
+            },
+            {
+              "time": "17:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Bones"
+            },
+            {
+              "time": "18:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Hangout"
+            },
+            {
+              "time": "19:00",
+              "place": "35",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Camel"
+            }
+          ]
+        },
+        "fall_15": {
+          "label": "осень, день 15",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "ccVault",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            },
+            {
+              "time": "09:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "a1200",
+              "place": "SandyHouse",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Greeting"
+            },
+            {
+              "time": "13:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Hangout"
+            },
+            {
+              "time": "15:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Lake"
+            },
+            {
+              "time": "17:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Bones"
+            },
+            {
+              "time": "18:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Emily:Sandy_Birthday_Hangout"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Evelyn",
@@ -18947,7 +29843,354 @@ export const GAME_DATA = {
           "name": "Разбитые очки",
           "icon": "/game/items/170.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:10",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_3": {
+          "label": "DesertFestival 3",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "a1000",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Evelyn"
+            },
+            {
+              "time": "22:50",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "2": {
+          "label": "день 2",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Evelyn:2.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Evelyn:2.001"
+            },
+            {
+              "time": "16:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "23": {
+          "label": "день 23",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Evelyn:23.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Evelyn:23.001"
+            },
+            {
+              "time": "16:10",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter_17": {
+          "label": "зима, день 17",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:10",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Evelyn:winter_17.000"
+            },
+            {
+              "time": "23:40",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:10",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Thu": {
+          "label": "четверг",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:10",
+              "place": "CommunityCenter",
+              "note": "Strings\\schedules\\Evelyn:Thu.000"
+            },
+            {
+              "time": "16:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Thu",
+              "note": "переход"
+            }
+          ]
+        },
+        "Mon": {
+          "label": "понедельник",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Thu",
+              "note": "переход"
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:10",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:10",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "George",
@@ -19025,7 +30268,229 @@ export const GAME_DATA = {
           "name": "Мороженое",
           "icon": "/game/items/233.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_3": {
+          "label": "DesertFestival 3",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "a1000",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_George"
+            },
+            {
+              "time": "22:50",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "23": {
+          "label": "день 23",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "JoshHouse",
+              "note": "Strings\\schedules\\George:23.000"
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\George:23.001"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\George:23.002"
+            },
+            {
+              "time": "16:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter_17": {
+          "label": "зима, день 17",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "16:20",
+              "place": "пляж",
+              "note": "Strings\\schedules\\George:winter_17.000"
+            },
+            {
+              "time": "23:40",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer_Fri": {
+          "label": "лето, день Fri",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "saloonSportsRoom",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: Sun_normal",
+              "note": "переход"
+            },
+            {
+              "time": "06:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\George:Sun.001"
+            },
+            {
+              "time": "15:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Sun_normal": {
+          "label": "Sun normal",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\George:Sun.000"
+            },
+            {
+              "time": "14:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "JoshHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "JoshHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Gus",
@@ -19091,7 +30556,274 @@ export const GAME_DATA = {
           "name": "Трюфель",
           "icon": "/game/items/430.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Gus"
+            },
+            {
+              "time": "00:40",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "Mon": {
+          "label": "понедельник",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Gus:Mon.000"
+            },
+            {
+              "time": "11:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "18:50",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:40",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:50",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "20:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "20:40",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "12:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "18:50",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:40",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:50",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "20:30",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "fall_4": {
+          "label": "осень, день 4",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Gus:fall_4.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Gus:fall_4.001"
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:40",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:50",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "20:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "20:40",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "18:50",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:40",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:50",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "20:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "20:40",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "saloonSportsRoom",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            },
+            {
+              "time": "08:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "11:40",
+              "place": "салун",
+              "note": "Strings\\schedules\\Gus:Sun.000"
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "18:50",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:40",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:50",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Haley",
@@ -19187,7 +30919,434 @@ export const GAME_DATA = {
           "name": "Мороженое",
           "icon": "/game/items/233.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "HaleyHouse",
+              "note": "Strings\\schedules\\Haley:rain.000"
+            },
+            {
+              "time": "10:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_1": {
+          "label": "marriage DesertFestival 1",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Haley_marriage"
+            },
+            {
+              "time": "00:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_2": {
+          "label": "marriage DesertFestival 2",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Haley2_marriage"
+            },
+            {
+              "time": "21:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Haley"
+            },
+            {
+              "time": "01:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_2": {
+          "label": "DesertFestival 2",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Haley2"
+            },
+            {
+              "time": "21:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "09:30",
+              "place": "HaleyHouse",
+              "note": "Strings\\schedules\\Haley:marriage_Mon.000"
+            },
+            {
+              "time": "15:40",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "winter_9": {
+          "label": "зима, день 9",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "09:50",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Haley:winter_9.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Haley:winter_9.001"
+            },
+            {
+              "time": "16:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "22:30",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "HaleyHouse",
+              "note": "Strings\\schedules\\Haley:winter_16.000"
+            },
+            {
+              "time": "10:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Haley:winter_16.001"
+            },
+            {
+              "time": "00:00",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "HaleyHouse",
+              "note": "Strings\\schedules\\Haley:winter.000"
+            },
+            {
+              "time": "10:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Wed_6": {
+          "label": "Wed 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: season",
+              "note": "переход"
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Alex 6"
+            },
+            {
+              "time": "09:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "09:50",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "22:30",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "08:40",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "09:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring_Mon": {
+          "label": "весна, день Mon",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "fall_Mon": {
+          "label": "осень, день Mon",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring_Mon",
+              "note": "переход"
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "09:50",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "HaleyHouse",
+              "note": ""
+            },
+            {
+              "time": "22:30",
+              "place": "HaleyHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Harvey",
@@ -19271,7 +31430,429 @@ export const GAME_DATA = {
           "name": "Утиное яйцо",
           "icon": "/game/items/442.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: winter",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival": {
+          "label": "marriage DesertFestival",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Harvey_marriage"
+            }
+          ]
+        },
+        "DesertFestival": {
+          "label": "DesertFestival",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "07:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Harvey"
+            }
+          ]
+        },
+        "marriageJob": {
+          "label": "marriageJob",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Harvey:marriageJob.000"
+            },
+            {
+              "time": "12:50",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "14:10",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "15:50",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "16:10",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Harvey:marriage_Mon.000"
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": "Strings\\schedules\\Harvey:marriage_Mon.001"
+            },
+            {
+              "time": "17:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "07:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "12:50",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "14:10",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "15:50",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "16:10",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "HarveyRoom",
+              "note": ""
+            }
+          ]
+        },
+        "Thu": {
+          "label": "четверг",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Tue",
+              "note": "переход"
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Harvey:Fri.000"
+            },
+            {
+              "time": "15:00",
+              "place": "HarveyRoom",
+              "note": "Strings\\schedules\\Harvey:Fri.001"
+            },
+            {
+              "time": "16:30",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "HarveyRoom",
+              "note": ""
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "музей",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "HarveyRoom",
+              "note": "Strings\\schedules\\Harvey:Sat.000"
+            },
+            {
+              "time": "16:30",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "HarveyRoom",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "08:40",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Harvey:winter_15.000"
+            },
+            {
+              "time": "00:00",
+              "place": "HarveyRoom",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "08:40",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "17:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "HarveyRoom",
+              "note": ""
+            }
+          ]
+        },
+        "fall": {
+          "label": "осень",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "HarveyRoom",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "18:40",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "HarveyRoom",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "18:40",
+              "place": "HarveyRoom",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "HarveyRoom",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Jas",
@@ -19361,7 +31942,299 @@ export const GAME_DATA = {
           "name": "Печенье",
           "icon": "/game/items/223.png"
         }
-      ]
+      ],
+      "schedules": {
+        "9": {
+          "label": "день 9",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Sam 6 Penny 6"
+            },
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "23": {
+          "label": "день 23",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Sam 6 Penny 6"
+            },
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_3": {
+          "label": "DesertFestival 3",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\\\1_6_Strings:DesertFestival_Jas"
+            },
+            {
+              "time": "11:30",
+              "place": "пустыня",
+              "note": "Strings\\\\1_6_Strings:DesertFestival_Jas"
+            },
+            {
+              "time": "22:50",
+              "place": "пустыня",
+              "note": "Strings\\\\1_6_Strings:DesertFestival_Jas"
+            },
+            {
+              "time": "23:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "13:20",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Jas:summer.000"
+            },
+            {
+              "time": "16:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "лес",
+              "note": "Strings\\schedules\\Jas:winter_15.000"
+            },
+            {
+              "time": "14:50",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Jas:winter_15.001"
+            },
+            {
+              "time": "23:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter_18": {
+          "label": "зима, день 18",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "AnimalShop",
+              "note": "Strings\\schedules\\Jas:winter_18.000"
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Jas:winter_18.001"
+            },
+            {
+              "time": "16:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "музей",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:20",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:50",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Tue",
+              "note": "переход"
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Tue",
+              "note": "переход"
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "лес",
+              "note": "Strings\\schedules\\Jas:spring.000"
+            },
+            {
+              "time": "15:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Jodi",
@@ -19439,7 +32312,459 @@ export const GAME_DATA = {
           "name": "Крокус",
           "icon": "/game/items/418.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:20",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_3": {
+          "label": "DesertFestival 3",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Jodi"
+            },
+            {
+              "time": "00:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "spring_11": {
+          "label": "весна, день 11",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "SamHouse",
+              "note": "Strings\\schedules\\Jodi:spring_11.000"
+            },
+            {
+              "time": "11:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Jodi:spring_11.001"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Jodi:spring_11.002"
+            },
+            {
+              "time": "16:00",
+              "place": "SamHouse",
+              "note": "Strings\\schedules\\Jodi:spring_11.003"
+            },
+            {
+              "time": "20:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring_18": {
+          "label": "весна, день 18",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:20",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Jodi:spring_18.000"
+            },
+            {
+              "time": "16:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Jodi:Tue.000"
+            },
+            {
+              "time": "18:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:20",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "JojaMart",
+              "note": ""
+            }
+          ]
+        },
+        "JojaMart_Replacement": {
+          "label": "JojaMart Replacement",
+          "rows": [
+            {
+              "time": "SeedShop",
+              "place": "2",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Wed",
+              "note": "переход"
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:20",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter_17": {
+          "label": "зима, день 17",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:20",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Jodi:winter_17.000"
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:20",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Kent",
@@ -19487,7 +32812,229 @@ export const GAME_DATA = {
           "name": "Дварфийская инструкция по безопасности",
           "icon": "/game/items/Book_Bombs.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_3": {
+          "label": "DesertFestival 3",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Kent"
+            },
+            {
+              "time": "00:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "23:50",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Fri",
+              "note": "переход"
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "saloonSportsRoom",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: Sun_normal",
+              "note": "переход"
+            },
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "11:10",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "город",
+              "note": ""
+            }
+          ]
+        },
+        "Sun_normal": {
+          "label": "Sun normal",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:10",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Krobus",
@@ -19577,7 +33124,8 @@ export const GAME_DATA = {
           "name": "Странная булочка",
           "icon": "/game/items/203.png"
         }
-      ]
+      ],
+      "schedules": {}
     },
     {
       "id": "Leah",
@@ -19667,7 +33215,374 @@ export const GAME_DATA = {
           "name": "Крокус",
           "icon": "/game/items/418.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Fri",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_1": {
+          "label": "marriage DesertFestival 1",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Leah_marriage"
+            },
+            {
+              "time": "01:20",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Leah"
+            },
+            {
+              "time": "01:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "лес",
+              "note": "Strings\\schedules\\Leah:marriage_Mon.000"
+            },
+            {
+              "time": "15:00",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "17:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Leah:winter_15.000"
+            },
+            {
+              "time": "23:40",
+              "place": "LeahHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring_16": {
+          "label": "весна, день 16",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Leah:spring_16.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Leah:spring_16.001"
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "23:40",
+              "place": "LeahHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: rain",
+              "note": "переход"
+            }
+          ]
+        },
+        "fall": {
+          "label": "осень",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "LeahHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Mon": {
+          "label": "понедельник",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "LeahHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "23:40",
+              "place": "LeahHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Fri",
+              "note": "переход"
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "beachBridgeFixed",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: summer_noBridge",
+              "note": "переход"
+            },
+            {
+              "time": "09:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "LeahHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer_noBridge": {
+          "label": "лето, день noBridge",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "LeahHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "LeahHouse",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "LeahHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Lewis",
@@ -19763,7 +33678,609 @@ export const GAME_DATA = {
           "name": "Бок-чой",
           "icon": "/game/items/278.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:50",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Lewis"
+            },
+            {
+              "time": "01:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_2": {
+          "label": "DesertFestival 2",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Lewis2"
+            },
+            {
+              "time": "00:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_3": {
+          "label": "DesertFestival 3",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Lewis3"
+            },
+            {
+              "time": "01:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "fall_9": {
+          "label": "осень, день 9",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Lewis:fall_9.000"
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "11:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:20",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Lewis:winter_16.000"
+            },
+            {
+              "time": "23:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "11:40",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Lewis:Tue.000"
+            },
+            {
+              "time": "16:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "6": {
+          "label": "день 6",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "Blacksmith",
+              "note": "Strings\\schedules\\Lewis:6.000"
+            },
+            {
+              "time": "13:00",
+              "place": "музей",
+              "note": "Strings\\schedules\\Lewis:6.001"
+            },
+            {
+              "time": "16:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "20": {
+          "label": "день 20",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: 6",
+              "note": "переход"
+            }
+          ]
+        },
+        "3": {
+          "label": "день 3",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "AnimalShop",
+              "note": "Strings\\schedules\\Lewis:3.000"
+            },
+            {
+              "time": "16:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "24": {
+          "label": "день 24",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: 3",
+              "note": "переход"
+            }
+          ]
+        },
+        "1": {
+          "label": "день 1",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "FishShop",
+              "note": "Strings\\schedules\\Lewis:1.000"
+            },
+            {
+              "time": "16:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "15": {
+          "label": "день 15",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "дом Робин",
+              "note": "Strings\\schedules\\Lewis:15.000"
+            },
+            {
+              "time": "16:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "11:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter_Sun": {
+          "label": "зима, день Sun",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "музей",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "fall_Sun": {
+          "label": "осень, день Sun",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "09:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:20",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "11:10",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer_Sun": {
+          "label": "лето, день Sun",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "11:40",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "09:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "14:40",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "CommunityCenter",
+              "note": ""
+            }
+          ]
+        },
+        "default": {
+          "label": "default",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "11:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "ManorHouse",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "ManorHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Linus",
@@ -19811,7 +34328,229 @@ export const GAME_DATA = {
           "name": "Переулочный буфет",
           "icon": "/game/items/Book_Trash.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "Tent",
+              "note": ""
+            },
+            {
+              "time": "09:30",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "10:10",
+              "place": "Tent",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "Tent",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_2": {
+          "label": "DesertFestival 2",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "Tent",
+              "note": ""
+            },
+            {
+              "time": "07:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Linus"
+            },
+            {
+              "time": "01:40",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "11:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Linus:winter_15.000"
+            },
+            {
+              "time": "23:30",
+              "place": "Tent",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "09:40",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "20:20",
+              "place": "Tent",
+              "note": ""
+            }
+          ]
+        },
+        "fall": {
+          "label": "осень",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "07:40",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "железная дорога",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "Tent",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "11:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "BathHouse_Entry",
+              "note": "Strings\\schedules\\Linus:winter.000"
+            },
+            {
+              "time": "18:00",
+              "place": "Tent",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "07:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "09:30",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "Tent",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "Tent",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "Tent",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Marnie",
@@ -19865,7 +34604,299 @@ export const GAME_DATA = {
           "name": "Альманах Долины Стардью",
           "icon": "/game/items/SkillBook_0.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "DesertFestival_3": {
+          "label": "DesertFestival 3",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Marnie"
+            },
+            {
+              "time": "23:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter_18": {
+          "label": "зима, день 18",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "AnimalShop",
+              "note": "Strings\\schedules\\Marnie:winter_18.000"
+            },
+            {
+              "time": "10:40",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Marnie:winter_18.001"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Marnie:winter_18.002"
+            },
+            {
+              "time": "16:10",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Marnie:winter_16.000"
+            },
+            {
+              "time": "23:40",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "fall_18": {
+          "label": "осень, день 18",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Marnie:fall_18.000"
+            },
+            {
+              "time": "16:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Marnie:Tue.000"
+            },
+            {
+              "time": "18:10",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Mon": {
+          "label": "понедельник",
+          "rows": [
+            {
+              "time": "08:10",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Sat",
+              "note": "переход"
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Sat",
+              "note": "переход"
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Maru",
@@ -19991,7 +35022,424 @@ export const GAME_DATA = {
           "name": "Сосновая смола",
           "icon": "/game/items/726.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "12:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "14:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_2": {
+          "label": "marriage DesertFestival 2",
+          "rows": [
+            {
+              "time": "a1000",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Maru_marriage"
+            },
+            {
+              "time": "23:40",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_2": {
+          "label": "DesertFestival 2",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "a1000",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Maru"
+            },
+            {
+              "time": "23:50",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": "Strings\\schedules\\Maru:marriage_Mon.000"
+            },
+            {
+              "time": "12:00",
+              "place": "дом Робин",
+              "note": "Strings\\schedules\\Maru:marriage_Mon.001"
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": "Strings\\schedules\\Maru:marriage_Mon.002"
+            },
+            {
+              "time": "18:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriageJob": {
+          "label": "marriageJob",
+          "rows": [
+            {
+              "time": "07:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Maru:marriageJob.000"
+            },
+            {
+              "time": "14:00",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Maru:marriageJob.001"
+            },
+            {
+              "time": "16:00",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Maru:marriageJob.002"
+            },
+            {
+              "time": "16:40",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "07:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "16:40",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "Thu": {
+          "label": "четверг",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Tue",
+              "note": "переход"
+            }
+          ]
+        },
+        "Mon": {
+          "label": "понедельник",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Mon",
+              "note": "переход"
+            }
+          ]
+        },
+        "summer_Mon": {
+          "label": "лето, день Mon",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "13:10",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "summer_Sun": {
+          "label": "лето, день Sun",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "12:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "18:10",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "15:40",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Maru:winter_16.000"
+            },
+            {
+              "time": "23:30",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "CommunityCenter_Replacement": {
+          "label": "CommunityCenter Replacement",
+          "rows": [
+            {
+              "time": "ScienceHouse",
+              "place": "5",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "горы",
+              "note": "Strings\\schedules\\Maru:summer.000"
+            },
+            {
+              "time": "00:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Pam",
@@ -20093,7 +35541,179 @@ export const GAME_DATA = {
           "name": "Черничный тарт",
           "icon": "/game/items/234.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "SquidFest": {
+          "label": "SquidFest",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "пляж",
+              "note": "Strings\\1_6_Strings:SquidFest_Pam"
+            },
+            {
+              "time": "22:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_2": {
+          "label": "DesertFestival 2",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Pam"
+            },
+            {
+              "time": "00:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival": {
+          "label": "DesertFestival",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "07:20",
+              "place": "автобусная остановка",
+              "note": ""
+            },
+            {
+              "time": "00:50",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "spring_25": {
+          "label": "весна, день 25",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "11:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Pam:spring_25.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Pam:spring_25.001"
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "bus": {
+          "label": "bus",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "автобусная остановка",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "JojaMart_Replacement": {
+          "label": "JojaMart Replacement",
+          "rows": [
+            {
+              "time": "SeedShop",
+              "place": "2",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Penny",
@@ -20171,7 +35791,509 @@ export const GAME_DATA = {
           "name": "Одуванчик",
           "icon": "/game/items/22.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "rain2": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:10",
+              "place": "город",
+              "note": "Strings\\schedules\\Penny:rain2.000"
+            },
+            {
+              "time": "12:00",
+              "place": "музей",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_2": {
+          "label": "marriage DesertFestival 2",
+          "rows": [
+            {
+              "time": "a1000",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Penny_marriage"
+            },
+            {
+              "time": "00:40",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_2": {
+          "label": "DesertFestival 2",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "a1000",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Penny"
+            },
+            {
+              "time": "00:40",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "08:10",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Penny:winter_15.000"
+            },
+            {
+              "time": "23:50",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "CommunityCenter_Replacement": {
+          "label": "CommunityCenter Replacement",
+          "rows": [
+            {
+              "time": "ArchaeologyHouse",
+              "place": "16",
+              "note": ""
+            }
+          ]
+        },
+        "winter_4": {
+          "label": "зима, день 4",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "Trailer",
+              "note": "Strings\\schedules\\Penny:winter_4.000"
+            },
+            {
+              "time": "11:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Penny:winter_4.001"
+            },
+            {
+              "time": "16:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "9_6": {
+          "label": "9 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "23_6": {
+          "label": "23 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "9": {
+          "label": "день 9",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Sam 6"
+            },
+            {
+              "time": "09:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "18:40",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "23": {
+          "label": "день 23",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Sam 6"
+            },
+            {
+              "time": "—",
+              "place": "как расписание: 9",
+              "note": "переход"
+            }
+          ]
+        },
+        "summer_Sun": {
+          "label": "лето, день Sun",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "marriageJob": {
+          "label": "marriageJob",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "музей",
+              "note": "Strings\\schedules\\Penny:marriageJob.000"
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:20",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:50",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "музей",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:20",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:50",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Tue",
+              "note": "переход"
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Tue",
+              "note": "переход"
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Penny:marriage_Mon.000"
+            },
+            {
+              "time": "11:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Penny:marriage_Mon.001"
+            },
+            {
+              "time": "11:30",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "город",
+              "note": "Strings\\schedules\\Penny:marriage_Mon.002"
+            },
+            {
+              "time": "18:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "12:30",
+              "place": "Trailer",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:40",
+              "place": "Trailer",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Pierre",
@@ -20231,7 +36353,114 @@ export const GAME_DATA = {
           "name": "Сашими",
           "icon": "/game/items/227.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Pierre"
+            },
+            {
+              "time": "01:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Pierre:Fri.000"
+            },
+            {
+              "time": "22:50",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "магазин Пьера",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Robin",
@@ -20285,7 +36514,219 @@ export const GAME_DATA = {
           "name": "Еженедельник лесника",
           "icon": "/game/items/SkillBook_2.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_2": {
+          "label": "DesertFestival 2",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Robin"
+            },
+            {
+              "time": "00:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "Mon": {
+          "label": "понедельник",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "CommunityCenter",
+              "note": ""
+            },
+            {
+              "time": "19:40",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "09:30",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "13:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Robin:Tue.000"
+            },
+            {
+              "time": "18:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "summer_18": {
+          "label": "лето, день 18",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "08:00",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Robin:summer_18.000"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Robin:summer_18.001"
+            },
+            {
+              "time": "16:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:20",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Robin:winter_16.000"
+            },
+            {
+              "time": "23:30",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "дом Робин",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Sam",
@@ -20381,7 +36822,509 @@ export const GAME_DATA = {
           "name": "«Объеденье»",
           "icon": "/game/items/239.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": "Strings\\schedules\\Sam:marriage_Mon.000"
+            },
+            {
+              "time": "11:00",
+              "place": "SamHouse",
+              "note": "Strings\\schedules\\Sam:marriage_Mon.001"
+            },
+            {
+              "time": "15:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Fri": {
+          "label": "marriage Fri",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "SamHouse",
+              "note": "Strings\\schedules\\Sam:marriage_Fri.000"
+            },
+            {
+              "time": "11:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Sam:marriage_Fri.001"
+            },
+            {
+              "time": "21:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "rain2": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Sam:rain2.000"
+            },
+            {
+              "time": "19:40",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_1": {
+          "label": "marriage DesertFestival 1",
+          "rows": [
+            {
+              "time": "10:20",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Sam_marriage"
+            },
+            {
+              "time": "01:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Sam"
+            },
+            {
+              "time": "00:10",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter_17": {
+          "label": "зима, день 17",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Sam:winter_17.000"
+            },
+            {
+              "time": "00:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "13:40",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "fall": {
+          "label": "осень",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "13:20",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "13:20",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "fall_11": {
+          "label": "осень, день 11",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": "Strings\\schedules\\Sam:fall_11.000"
+            },
+            {
+              "time": "11:30",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Sam:fall_11.001"
+            },
+            {
+              "time": "16:00",
+              "place": "город",
+              "note": "Strings\\schedules\\Sam:fall_11.002"
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "12:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "19:40",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "9_6": {
+          "label": "9 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "23_6": {
+          "label": "23 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "9": {
+          "label": "день 9",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Penny 6"
+            },
+            {
+              "time": "09:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "23": {
+          "label": "день 23",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Penny 6"
+            },
+            {
+              "time": "—",
+              "place": "как расписание: 9",
+              "note": "переход"
+            }
+          ]
+        },
+        "Mon": {
+          "label": "понедельник",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Mon",
+              "note": "переход"
+            }
+          ]
+        },
+        "JojaMart_Replacement": {
+          "label": "JojaMart Replacement",
+          "rows": [
+            {
+              "time": "ArchaeologyHouse",
+              "place": "40",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "21:20",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "10:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "13:40",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Sandy",
@@ -20447,7 +37390,84 @@ export const GAME_DATA = {
           "name": "Шерсть",
           "icon": "/game/items/440.png"
         }
-      ]
+      ],
+      "schedules": {
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "SandyHouse",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival": {
+          "label": "DesertFestival",
+          "rows": [
+            {
+              "time": "06:30",
+              "place": "SandyHouse",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Sandy"
+            },
+            {
+              "time": "00:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "fall_15": {
+          "label": "осень, день 15",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "ccVault",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            },
+            {
+              "time": "06:30",
+              "place": "SandyHouse",
+              "note": ""
+            },
+            {
+              "time": "a1200",
+              "place": "SandyHouse",
+              "note": "Strings\\schedules\\Sandy:Sandy_Birthday_Greeting"
+            },
+            {
+              "time": "13:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Sandy:Sandy_Birthday_Hangout"
+            },
+            {
+              "time": "15:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Sandy:Sandy_Birthday_Lake"
+            },
+            {
+              "time": "17:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Sandy:Sandy_Birthday_Bones"
+            },
+            {
+              "time": "18:00",
+              "place": "пустыня",
+              "note": "Strings\\schedules\\Sandy:Sandy_Birthday_Hangout"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Sebastian",
@@ -20519,7 +37539,404 @@ export const GAME_DATA = {
           "name": "Дайджест драчуна",
           "icon": "/game/items/SkillBook_4.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "10:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Sebastian:rain.000"
+            },
+            {
+              "time": "17:00",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "rain2": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "10:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "21:10",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_1": {
+          "label": "marriage DesertFestival 1",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Sebastian_marriage"
+            },
+            {
+              "time": "01:20",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_1": {
+          "label": "DesertFestival 1",
+          "rows": [
+            {
+              "time": "07:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "08:30",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Sebastian"
+            },
+            {
+              "time": "01:00",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "горы",
+              "note": "Strings\\schedules\\Sebastian:marriage_Mon.000"
+            },
+            {
+              "time": "13:00",
+              "place": "дом Робин",
+              "note": "Strings\\schedules\\Sebastian:marriage_Mon.001"
+            },
+            {
+              "time": "17:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Fri": {
+          "label": "marriage Fri",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Sebastian:marriage_Fri.000"
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Sebastian:marriage_Fri.001"
+            },
+            {
+              "time": "21:10",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "10:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "15:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "16:50",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Sebastian:winter_16.000"
+            },
+            {
+              "time": "23:40",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "fall": {
+          "label": "осень",
+          "rows": [
+            {
+              "time": "10:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "16:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "17:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "summer_4": {
+          "label": "лето, день 4",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "комната Себастьяна",
+              "note": "Strings\\schedules\\Sebastian:summer_4.000"
+            },
+            {
+              "time": "10:00",
+              "place": "клиника",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Sebastian:summer_4.001"
+            },
+            {
+              "time": "16:00",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "11_6": {
+          "label": "11 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "25_6": {
+          "label": "25 6",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "11": {
+          "label": "день 11",
+          "rows": [
+            {
+              "time": "10:00",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "17:10",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "15": {
+          "label": "день 15",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: 11",
+              "note": "переход"
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "12:30",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "Thu": {
+          "label": "четверг",
+          "rows": [
+            {
+              "time": "10:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "железная дорога",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "железная дорога",
+              "note": ""
+            },
+            {
+              "time": "19:30",
+              "place": "железная дорога",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "10:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Sebastian:Fri.000"
+            },
+            {
+              "time": "21:10",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "10:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "дом Робин",
+              "note": ""
+            },
+            {
+              "time": "15:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            },
+            {
+              "time": "18:30",
+              "place": "горы",
+              "note": ""
+            },
+            {
+              "time": "21:30",
+              "place": "комната Себастьяна",
+              "note": ""
+            }
+          ]
+        },
+        "default": {
+          "label": "default",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Shane",
@@ -20561,7 +37978,414 @@ export const GAME_DATA = {
           "name": "Светлый эль",
           "icon": "/game/items/303.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Shane:winter_15.000"
+            },
+            {
+              "time": "23:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_DesertFestival_3": {
+          "label": "marriage DesertFestival 3",
+          "rows": [
+            {
+              "time": "08:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Shane_marriage"
+            },
+            {
+              "time": "00:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_3": {
+          "label": "DesertFestival 3",
+          "rows": [
+            {
+              "time": "06:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Shane"
+            },
+            {
+              "time": "00:30",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "12:30",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "14:30",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "15:30",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "JojaMart",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "магазин Пьера",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "23:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "saloonSportsRoom",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: Sun_normal",
+              "note": "переход"
+            },
+            {
+              "time": "07:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Shane:marriage_Sun.000"
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "Sun_normal": {
+          "label": "Sun normal",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "14:50",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "summer_Sun": {
+          "label": "лето, день Sun",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "14:50",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "18:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "00:00",
+              "place": "AnimalShop",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Mon": {
+          "label": "marriage Mon",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "AnimalShop",
+              "note": "Strings\\schedules\\Shane:marriage_Mon.000"
+            },
+            {
+              "time": "11:00",
+              "place": "лес",
+              "note": "Strings\\schedules\\Shane:marriage_Mon.001"
+            },
+            {
+              "time": "17:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Fri": {
+          "label": "marriage Fri",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "shanePK",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: marriage_Fri_normal",
+              "note": "переход"
+            },
+            {
+              "time": "08:30",
+              "place": "город",
+              "note": "Strings\\schedules\\Shane:marriage_Fri.000"
+            },
+            {
+              "time": "13:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Shane:marriage_Fri.001"
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Shane:marriage_Fri.003"
+            },
+            {
+              "time": "22:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Fri_normal": {
+          "label": "marriage Fri normal",
+          "rows": [
+            {
+              "time": "08:30",
+              "place": "город",
+              "note": "Strings\\schedules\\Shane:marriage_Fri.000"
+            },
+            {
+              "time": "13:00",
+              "place": "магазин Пьера",
+              "note": "Strings\\schedules\\Shane:marriage_Fri.001"
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Shane:marriage_Fri.002"
+            },
+            {
+              "time": "22:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "marriage_Sun": {
+          "label": "marriage Sun",
+          "rows": [
+            {
+              "time": "MAIL",
+              "place": "saloonSportsRoom",
+              "note": ""
+            },
+            {
+              "time": "—",
+              "place": "как расписание: NO_SCHEDULE",
+              "note": "переход"
+            },
+            {
+              "time": "08:30",
+              "place": "город",
+              "note": "Strings\\schedules\\Shane:marriage_Fri.000"
+            },
+            {
+              "time": "10:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Shane:marriage_Sun.000"
+            },
+            {
+              "time": "15:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Shane:marriage_Sun.001"
+            },
+            {
+              "time": "20:00",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "default": {
+          "label": "default",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "AnimalShop",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "салун",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Vincent",
@@ -20663,7 +38487,304 @@ export const GAME_DATA = {
           "name": "Печенье",
           "icon": "/game/items/223.png"
         }
-      ]
+      ],
+      "schedules": {
+        "9": {
+          "label": "день 9",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Sam 6 Penny 6"
+            },
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "23": {
+          "label": "день 23",
+          "rows": [
+            {
+              "time": "условие",
+              "place": "альтернативный маршрут",
+              "note": "NOT friendship Sam 6 Penny 6"
+            },
+            {
+              "time": "—",
+              "place": "как расписание: spring",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival_3": {
+          "label": "DesertFestival 3",
+          "rows": [
+            {
+              "time": "07:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "09:00",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Vincent"
+            },
+            {
+              "time": "23:50",
+              "place": "кровать",
+              "note": ""
+            }
+          ]
+        },
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "summer": {
+          "label": "лето",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "13:40",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring_11": {
+          "label": "весна, день 11",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "SamHouse",
+              "note": "Strings\\schedules\\Vincent:spring_11.000"
+            },
+            {
+              "time": "11:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Vincent:spring_11.001"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Vincent:spring_11.002"
+            },
+            {
+              "time": "16:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:30",
+              "place": "пляж",
+              "note": "Strings\\schedules\\Vincent:winter_16.000"
+            },
+            {
+              "time": "23:30",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "музей",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "16:20",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:40",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "Wed": {
+          "label": "среда",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Tue",
+              "note": "переход"
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: Tue",
+              "note": "переход"
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "10:10",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "SamHouse",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "SamHouse",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Willy",
@@ -20795,7 +38916,274 @@ export const GAME_DATA = {
           "name": "Окунь с хрустящей корочкой",
           "icon": "/game/items/214.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "—",
+              "place": "как расписание: winter",
+              "note": "переход"
+            }
+          ]
+        },
+        "GreenRain": {
+          "label": "зелёный дождь",
+          "rows": [
+            {
+              "time": "00:00",
+              "place": "салун",
+              "note": ""
+            }
+          ]
+        },
+        "DesertFestival": {
+          "label": "DesertFestival",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "06:40",
+              "place": "пустыня",
+              "note": "Strings\\1_6_Strings:DesertFestival_Willy"
+            }
+          ]
+        },
+        "TroutDerby": {
+          "label": "TroutDerby",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "FishShop",
+              "note": ""
+            },
+            {
+              "time": "10:00",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "23:20",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        },
+        "SquidFest": {
+          "label": "SquidFest",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "FishShop",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "пляж",
+              "note": "Strings\\1_6_Strings:SquidFest_Willy"
+            },
+            {
+              "time": "23:20",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        },
+        "spring_9": {
+          "label": "весна, день 9",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "FishShop",
+              "note": "Strings\\schedules\\Willy:spring_9.000"
+            },
+            {
+              "time": "10:10",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Willy:spring_9.001"
+            },
+            {
+              "time": "13:30",
+              "place": "клиника",
+              "note": "Strings\\schedules\\Willy:spring_9.002"
+            },
+            {
+              "time": "16:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Willy:spring_9.003"
+            },
+            {
+              "time": "23:20",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter_15": {
+          "label": "зима, день 15",
+          "rows": [
+            {
+              "time": "16:30",
+              "place": "салун",
+              "note": "Strings\\schedules\\Willy:winter_15.000"
+            },
+            {
+              "time": "00:20",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter_16": {
+          "label": "зима, день 16",
+          "rows": [
+            {
+              "time": "16:30",
+              "place": "салун",
+              "note": "Strings\\schedules\\Willy:winter_16.000"
+            },
+            {
+              "time": "00:20",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter_17": {
+          "label": "зима, день 17",
+          "rows": [
+            {
+              "time": "16:30",
+              "place": "салун",
+              "note": "Strings\\schedules\\Willy:winter_17.000"
+            },
+            {
+              "time": "00:20",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        },
+        "winter": {
+          "label": "зима",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "FishShop",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Willy:winter.000"
+            },
+            {
+              "time": "23:20",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        },
+        "Sat": {
+          "label": "суббота",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "лес",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "город",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Willy:Sat.000"
+            },
+            {
+              "time": "23:00",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        },
+        "Fri": {
+          "label": "пятница",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "FishShop",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "салун",
+              "note": "Strings\\schedules\\Willy:Fri.000"
+            },
+            {
+              "time": "23:20",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "06:10",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "08:50",
+              "place": "FishShop",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "пляж",
+              "note": ""
+            },
+            {
+              "time": "22:00",
+              "place": "FishShop",
+              "note": ""
+            }
+          ]
+        }
+      }
     },
     {
       "id": "Wizard",
@@ -20861,7 +39249,8 @@ export const GAME_DATA = {
           "name": "Иридиевый слиток",
           "icon": "/game/items/337.png"
         }
-      ]
+      ],
+      "schedules": {}
     },
     {
       "id": "Leo",
@@ -20871,7 +39260,7 @@ export const GAME_DATA = {
       "romance": false,
       "region": "Other",
       "portrait": "",
-      "sprite": "/game/sprites/Leo.png",
+      "sprite": "/game/items/289.png",
       "gifts": [
         {
           "taste": "Обожает",
@@ -20933,7 +39322,134 @@ export const GAME_DATA = {
           "name": "Манговый клейкий рис",
           "icon": "/game/items/905.png"
         }
-      ]
+      ],
+      "schedules": {
+        "rain": {
+          "label": "дождь",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "IslandHut",
+              "note": ""
+            },
+            {
+              "time": "11:00",
+              "place": "IslandEast",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "IslandHut",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "IslandHut",
+              "note": ""
+            },
+            {
+              "time": "19:00",
+              "place": "IslandHut",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "IslandHut",
+              "note": ""
+            }
+          ]
+        },
+        "Tue": {
+          "label": "вторник",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "IslandHut",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "остров: юг",
+              "note": ""
+            },
+            {
+              "time": "13:30",
+              "place": "IslandEast",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "остров: север",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "IslandHut",
+              "note": ""
+            }
+          ]
+        },
+        "Sun": {
+          "label": "воскресенье",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "IslandHut",
+              "note": ""
+            },
+            {
+              "time": "09:30",
+              "place": "IslandShrine",
+              "note": ""
+            },
+            {
+              "time": "14:00",
+              "place": "IslandEast",
+              "note": ""
+            },
+            {
+              "time": "17:00",
+              "place": "IslandHut",
+              "note": ""
+            },
+            {
+              "time": "21:00",
+              "place": "IslandHut",
+              "note": ""
+            }
+          ]
+        },
+        "spring": {
+          "label": "весна",
+          "rows": [
+            {
+              "time": "09:00",
+              "place": "IslandHut",
+              "note": ""
+            },
+            {
+              "time": "10:30",
+              "place": "IslandEast",
+              "note": ""
+            },
+            {
+              "time": "12:00",
+              "place": "остров: юг",
+              "note": ""
+            },
+            {
+              "time": "15:00",
+              "place": "остров: север",
+              "note": ""
+            },
+            {
+              "time": "20:00",
+              "place": "IslandHut",
+              "note": ""
+            }
+          ]
+        }
+      }
     }
   ],
   "cooking": [
@@ -32916,6 +51432,20 @@ export const GAME_DATA = {
       "target": "/game/ui/menu-tiles.png",
       "role": "деревянные плитки и рамки интерфейса",
       "mode": "tile sheet source"
+    },
+    {
+      "id": "calendar-icon",
+      "source": "LooseSprites/Billboard.ru-RU.png",
+      "target": "/game/ui/calendar-icon.png",
+      "role": "чистая иконка календаря для навигации",
+      "mode": "cropped icon, not a whole UI sheet"
+    },
+    {
+      "id": "center-icon",
+      "source": "LooseSprites/BundleSprites.png",
+      "target": "/game/ui/center-icon.png",
+      "role": "чистая иконка общественного центра для навигации",
+      "mode": "cropped icon, not a whole UI sheet"
     }
   ]
 };

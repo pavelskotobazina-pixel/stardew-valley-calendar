@@ -4292,6 +4292,20 @@
       "target": "/game/ui/menu-tiles.png",
       "role": "деревянные плитки и рамки интерфейса",
       "mode": "tile sheet source"
+    },
+    {
+      "id": "calendar-icon",
+      "source": "LooseSprites/Billboard.ru-RU.png",
+      "target": "/game/ui/calendar-icon.png",
+      "role": "чистая иконка календаря для навигации",
+      "mode": "cropped icon, not a whole UI sheet"
+    },
+    {
+      "id": "center-icon",
+      "source": "LooseSprites/BundleSprites.png",
+      "target": "/game/ui/center-icon.png",
+      "role": "чистая иконка общественного центра для навигации",
+      "mode": "cropped icon, not a whole UI sheet"
     }
   ]
 }

@@ -8,14 +8,14 @@ await fs.mkdir(new URL("../work/", import.meta.url), { recursive: true });
 
 const paths = {
   home: screenshot("screenshot-1440.png"),
+  calendar: screenshot("screenshot-calendar.png"),
   bundles: screenshot("screenshot-bundles.png"),
   fish: screenshot("screenshot-fish.png"),
-  crops: screenshot("screenshot-crops.png"),
-  forage: screenshot("screenshot-forage.png"),
+  farm: screenshot("screenshot-farm.png"),
   villagers: screenshot("screenshot-villagers.png"),
   catalog: screenshot("screenshot-catalog.png"),
   recipes: screenshot("screenshot-recipes.png"),
-  island: screenshot("screenshot-island.png"),
+  endgame: screenshot("screenshot-endgame.png"),
   perfection: screenshot("screenshot-perfection.png"),
   mobile: screenshot("screenshot-mobile.png"),
 };
@@ -37,23 +37,23 @@ await page.goto(url, { waitUntil: "networkidle" });
 await page.waitForTimeout(900);
 await page.screenshot({ path: paths.home, fullPage: false });
 
-await clickTab("Узелки");
+await clickTab("Календарь");
+await page.screenshot({ path: paths.calendar, fullPage: false });
+await clickTab("Центр");
 await page.screenshot({ path: paths.bundles, fullPage: false });
-await clickTab("Рыба");
+await clickTab("Рыбалка");
 await page.screenshot({ path: paths.fish, fullPage: false });
-await clickTab("Посевы");
-await page.screenshot({ path: paths.crops, fullPage: false });
-await clickTab("Сбор");
-await page.screenshot({ path: paths.forage, fullPage: false });
+await clickTab("Ферма");
+await page.screenshot({ path: paths.farm, fullPage: false });
 await clickTab("Жители");
 await page.screenshot({ path: paths.villagers, fullPage: false });
 await clickTab("Каталог");
 await page.screenshot({ path: paths.catalog, fullPage: false });
 await clickTab("Рецепты");
 await page.screenshot({ path: paths.recipes, fullPage: false });
-await clickTab("Остров");
-await page.screenshot({ path: paths.island, fullPage: false });
-await clickTab("100%");
+await clickTab("Endgame");
+await page.screenshot({ path: paths.endgame, fullPage: false });
+await clickTab("Perfection");
 await page.screenshot({ path: paths.perfection, fullPage: false });
 
 await page.setViewportSize({ width: 390, height: 900 });
@@ -86,6 +86,12 @@ const report = await page.evaluate(() => {
     imageCount: imgs.length,
     broken,
     panels: document.querySelectorAll(".game-panel").length,
+    pageOverflow: {
+      clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+      clientHeight: document.documentElement.clientHeight,
+      scrollHeight: document.documentElement.scrollHeight,
+    },
     possibleOverflow,
   };
 });
